@@ -1,7 +1,9 @@
 package com.tajok.alg;
 
 /**
- * 蛮力法
+ * 蛮力法：简单直接的解决问题
+ * 优点：适用性，简单性
+ * 缺点：效率低
  * @author taojian
  * @date 2015-12-30
  * @version 1.0
@@ -51,5 +53,5 @@ public class ManLiFa {
 			}
 		}
 	}
-
+	
 }
