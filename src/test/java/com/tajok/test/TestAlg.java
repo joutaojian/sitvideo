@@ -9,7 +9,7 @@ public class TestAlg {
 	@Test
 	public void test1(){
 		
-		Integer[] list = AlgUtil.randomArray(1000,2);
+		Integer[] list = AlgUtil.randomArray(100,2);
 		long startMili = System.currentTimeMillis();// 计时开始
 //		ManLiFa.bubbleSort(list);// 冒泡排序
 		ManLiFa.choiceSort(list);// 选择排序
