@@ -1,7 +1,7 @@
 package com.tajok.alg;
 
 /**
- * 蛮力法：简单直接的解决问题
+ * 蛮力法：暴力解决问题
  * 优点：适用性，简单性
  * 缺点：效率低
  * @author taojian
