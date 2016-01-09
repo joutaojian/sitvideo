@@ -88,5 +88,10 @@
 		#{id,jdbcType=INTEGER}
 	</update>
 
+	<!-- 手动编写 -->
+	
+	<select id="getAll" resultMap="BaseResultMap">
+		select * from user_t
+	</select>
 
 </mapper>

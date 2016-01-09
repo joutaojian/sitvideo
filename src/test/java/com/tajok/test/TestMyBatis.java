@@ -1,5 +1,7 @@
 package com.tajok.test;
 
+import java.util.List;
+
 import javax.annotation.Resource;
 
 import org.apache.log4j.Logger;
@@ -37,7 +39,13 @@ public class TestMyBatis {
 	@Test
 	public void test1() {
 		User user = userService.getUserById(1);
-		System.out.println("test1"+user);
+		logger.info("test1:"+JSON.toJSONStringWithDateFormat(user, "yyyy-MM-dd"));
+	}
+	
+	@Test
+	public void test2() {
+		List<User> users = userService.getAll();
+		logger.info("test2:"+JSON.toJSONStringWithDateFormat(users, "yyyy-MM-dd"));
 	}
 	
 	
