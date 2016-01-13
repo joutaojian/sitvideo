@@ -1,7 +1,6 @@
 package com.tajok.dao;
 
 import java.util.List;
-
 import com.tajok.model.User;
 
 public interface UserMapper {

@@ -1,4 +1,4 @@
-package com.tajok.alg.leetcode;
+package com.tajok.alg;
 
 import org.junit.Test;
 
@@ -8,7 +8,7 @@ import org.junit.Test;
  * @date 2016-1-9
  * @version 1.0
  */
-public class LeetCodeOJ_1 {
+public class LeetCodeOJ {
 	
     //326.给定一个整数,编写函数判断它是否是3的幂
     public boolean isPowerOfThree(int n) {

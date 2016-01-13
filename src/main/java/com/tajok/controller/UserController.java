@@ -2,6 +2,8 @@ package com.tajok.controller;
 
 import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -26,7 +28,7 @@ public class UserController {
 	}
 	*/
 	
-	@RequestMapping("/showUser/{id}")
+	@RequestMapping("/showUser/{id}") //带占位符的URL
 	public String showUser(HttpServletRequest request,@PathVariable int id) {//@PathVariable用来动态传参，url更美观
 		User user = userService.getUserById(id);
 		request.setAttribute("user", user);
