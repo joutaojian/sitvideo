@@ -23,18 +23,12 @@ import com.tajok.service.impl.UserServiceImpl;
 @RunWith(SpringJUnit4ClassRunner.class)		//表示继承了SpringJUnit4ClassRunner类
 @ContextConfiguration(locations = {"classpath:spring-mybatis.xml"})
 
-public class TestMyBatis {
-	private static Logger logger = Logger.getLogger(TestMyBatis.class);
-//	private ApplicationContext ac = null;
+public class TestSSM {
+	
+	private static Logger logger = Logger.getLogger(TestSSM.class);
 	
 	@Resource
 	private IUserService userService; 
-
-//	@Before
-//	public void before() {
-//		ac = new ClassPathXmlApplicationContext("applicationContext.xml");
-//		userService = (IUserService) ac.getBean("userService");
-//	}
 
 	@Test
 	public void test1() {
