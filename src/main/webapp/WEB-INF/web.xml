@@ -45,8 +45,8 @@
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>SpringMVC</servlet-name>
-		<!-- 此处可以可以配置成*.do，对应struts的后缀习惯 -->
-		<url-pattern>/</url-pattern>
+		<!-- 此处可以可以配置成*.do，对应struts的后缀习惯 ,或者 / -->
+		<url-pattern>*.do</url-pattern>
 	</servlet-mapping>
 	<welcome-file-list>
 		<welcome-file>/index.jsp</welcome-file>

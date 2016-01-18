@@ -3,11 +3,14 @@ package com.tajok.controller;
 import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.SessionAttributes;
+
 import com.tajok.model.User;
 import com.tajok.service.IUserService;
 
@@ -29,16 +32,25 @@ public class UserController {
 	*/
 	
 	@RequestMapping("/showUser/{id}") //带占位符的URL
-	public String showUser(HttpServletRequest request,@PathVariable int id) {//@PathVariable用来动态传参，url更美观
+	public String showUser(HttpServletRequest request,@PathVariable int id,HttpSession session) {//@PathVariable用来动态传参，url更美观
 		User user = userService.getUserById(id);
 		request.setAttribute("user", user);
-		return "showUser";
+		
+		session.setAttribute("user", user);
+		
+		return "/WEB-INF/jsp/showUser.jsp";
 	}
 	
 	@RequestMapping("/auditUser/{id}")
 	public String auditUser(HttpServletRequest request,@PathVariable int id) {
 		User user = userService.getUserById(id);
 		request.setAttribute("user", user);
-		return "auditUser";
+		
+		HttpSession session = request.getSession();
+		User users = (User) session.getAttribute("user"); 
+		System.out.println(users!=null?users.getId():"没有session");
+		
+		
+		return "/WEB-INF/jsp/auditUser.jsp";
 	}
 }
