@@ -4,6 +4,8 @@ import org.junit.Test;
 
 import com.tajok.designPattern.factoryMethod.Food;
 import com.tajok.designPattern.factoryMethod.FoodFactory;
+import com.tajok.designPattern.proxy.Proxy;
+import com.tajok.designPattern.proxy.Source;
 import com.tajok.designPattern.strategy.AlgContext;
 
 public class TestDesignPattern {
@@ -30,4 +32,15 @@ public class TestDesignPattern {
 		algcontext.getResult();
 	}
 	
+	/**
+	 * Proxy：代理模式，为对象提供一个代理以控制对象的访问
+	 * 根据依赖倒转原则和里式代换原则，一个类最好实现一个公共接口，而不是继承父类
+	 * 所以当一个实现公共接口的类，需要增加功能，但是根据开放-封闭原则，不应该对这个类进行修改
+	 * 应该新建一个代理类实现一样的公共接口，并在代理类中实例化需要增加需求的类，调用该类的方法并在代理类中新增方法，一起使用
+	 */
+	@Test
+	public void test3(){
+		Source source = new Proxy();
+		source.excuteMethod();
+	}
 }

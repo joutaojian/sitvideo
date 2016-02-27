@@ -15,7 +15,7 @@ public class AdminServiceImpl implements IAdminService {
 	private AdminMapper adminDao;
 
 	@Override
-	public boolean login(String email, String password) {
+	public boolean loginCheck(String email, String password) {
 		
 		Admin admin = adminDao.getByEmail(email);
 		
@@ -30,5 +30,7 @@ public class AdminServiceImpl implements IAdminService {
 		Admin admin = adminDao.getByEmail(email);
 		return admin;
 	}
+
+	
 
 }
