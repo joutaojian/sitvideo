@@ -1,7 +1,5 @@
 package com.tajok.alg;
 
-import org.junit.Test;
-
 /**
  * LeetCodeOJ
  * @author taojian

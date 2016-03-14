@@ -4,11 +4,13 @@
   <resultMap id="BaseResultMap" type="com.tajok.model.Admin" >
     <id column="id" property="id" jdbcType="INTEGER" />
     <result column="name" property="name" jdbcType="VARCHAR" />
-    <result column="email" property="email" jdbcType="VARCHAR" />
     <result column="password" property="password" jdbcType="VARCHAR" />
+    <result column="email" property="email" jdbcType="VARCHAR" />
+    <result column="phone" property="phone" jdbcType="INTEGER" />
+    <result column="time" property="time" jdbcType="TIMESTAMP" />
   </resultMap>
   <sql id="Base_Column_List" >
-    id, name, email, password
+    id, name, password, email, phone, time
   </sql>
   <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
     select 
@@ -21,10 +23,12 @@
     where id = #{id,jdbcType=INTEGER}
   </delete>
   <insert id="insert" parameterType="com.tajok.model.Admin" >
-    insert into t_admin (id, name, email, 
-      password)
-    values (#{id,jdbcType=INTEGER}, #{name,jdbcType=VARCHAR}, #{email,jdbcType=VARCHAR}, 
-      #{password,jdbcType=VARCHAR})
+    insert into t_admin (id, name, password, 
+      email, phone, time
+      )
+    values (#{id,jdbcType=INTEGER}, #{name,jdbcType=VARCHAR}, #{password,jdbcType=VARCHAR}, 
+      #{email,jdbcType=VARCHAR}, #{phone,jdbcType=INTEGER}, #{time,jdbcType=TIMESTAMP}
+      )
   </insert>
   <insert id="insertSelective" parameterType="com.tajok.model.Admin" >
     insert into t_admin
@@ -35,11 +39,17 @@
       <if test="name != null" >
         name,
       </if>
+      <if test="password != null" >
+        password,
+      </if>
       <if test="email != null" >
         email,
       </if>
-      <if test="password != null" >
-        password,
+      <if test="phone != null" >
+        phone,
+      </if>
+      <if test="time != null" >
+        time,
       </if>
     </trim>
     <trim prefix="values (" suffix=")" suffixOverrides="," >
@@ -49,11 +59,17 @@
       <if test="name != null" >
         #{name,jdbcType=VARCHAR},
       </if>
+      <if test="password != null" >
+        #{password,jdbcType=VARCHAR},
+      </if>
       <if test="email != null" >
         #{email,jdbcType=VARCHAR},
       </if>
-      <if test="password != null" >
-        #{password,jdbcType=VARCHAR},
+      <if test="phone != null" >
+        #{phone,jdbcType=INTEGER},
+      </if>
+      <if test="time != null" >
+        #{time,jdbcType=TIMESTAMP},
       </if>
     </trim>
   </insert>
@@ -63,11 +79,17 @@
       <if test="name != null" >
         name = #{name,jdbcType=VARCHAR},
       </if>
+      <if test="password != null" >
+        password = #{password,jdbcType=VARCHAR},
+      </if>
       <if test="email != null" >
         email = #{email,jdbcType=VARCHAR},
       </if>
-      <if test="password != null" >
-        password = #{password,jdbcType=VARCHAR},
+      <if test="phone != null" >
+        phone = #{phone,jdbcType=INTEGER},
+      </if>
+      <if test="time != null" >
+        time = #{time,jdbcType=TIMESTAMP},
       </if>
     </set>
     where id = #{id,jdbcType=INTEGER}
@@ -75,11 +97,13 @@
   <update id="updateByPrimaryKey" parameterType="com.tajok.model.Admin" >
     update t_admin
     set name = #{name,jdbcType=VARCHAR},
+      password = #{password,jdbcType=VARCHAR},
       email = #{email,jdbcType=VARCHAR},
-      password = #{password,jdbcType=VARCHAR}
+      phone = #{phone,jdbcType=INTEGER},
+      time = #{time,jdbcType=TIMESTAMP}
     where id = #{id,jdbcType=INTEGER}
   </update>
-
+  
   <!-- 手动 -->
   <select id="getByEmail" resultMap="BaseResultMap" parameterType="java.lang.String" >
     select 

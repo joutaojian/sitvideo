@@ -1,13 +1,19 @@
 package com.tajok.model;
 
+import java.util.Date;
+
 public class Admin {
     private Integer id;
 
     private String name;
 
+    private String password;
+
     private String email;
 
-    private String password;
+    private Integer phone;
+
+    private Date time;
 
     public Integer getId() {
         return id;
@@ -25,6 +31,14 @@ public class Admin {
         this.name = name == null ? null : name.trim();
     }
 
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password == null ? null : password.trim();
+    }
+
     public String getEmail() {
         return email;
     }
@@ -33,11 +47,19 @@ public class Admin {
         this.email = email == null ? null : email.trim();
     }
 
-    public String getPassword() {
-        return password;
+    public Integer getPhone() {
+        return phone;
     }
 
-    public void setPassword(String password) {
-        this.password = password == null ? null : password.trim();
+    public void setPhone(Integer phone) {
+        this.phone = phone;
+    }
+
+    public Date getTime() {
+        return time;
+    }
+
+    public void setTime(Date time) {
+        this.time = time;
     }
 }

@@ -6,7 +6,6 @@ import javax.annotation.Resource;
 
 import org.springframework.stereotype.Service;
 
-import com.alibaba.fastjson.JSON;
 import com.tajok.dao.UserMapper;
 import com.tajok.model.User;
 import com.tajok.service.IUserService;
@@ -27,6 +26,23 @@ public class UserServiceImpl implements IUserService {
 	@Override
 	public List<User> getAll() {
 		return this.userDao.getAll();
+	}
+	
+	@Override
+	public boolean loginCheck(String email, String password) {
+		
+		User user = userDao.getByEmail(email);
+		
+		if (user!=null && password.equals(user.getPassword())) {
+			return true;
+		}
+		return false;
+	}
+
+	@Override
+	public User getModel(String email) {
+		User user = userDao.getByEmail(email);
+		return user;
 	}
 	
 
