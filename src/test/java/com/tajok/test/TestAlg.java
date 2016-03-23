@@ -2,9 +2,9 @@ package com.tajok.test;
 
 import org.junit.Test;
 
-import com.tajok.alg.FenZhiFa;
-import com.tajok.alg.ManLiFa;
-import com.tajok.util.AlgUtil;
+import com.tajok.web.util.alg.FenZhiFa;
+import com.tajok.web.util.alg.ManLiFa;
+import com.tajok.web.util.utils.AlgUtil;
 
 public class TestAlg {
 	

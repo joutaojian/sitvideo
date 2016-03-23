@@ -2,11 +2,11 @@ package com.tajok.test;
 
 import org.junit.Test;
 
-import com.tajok.designPattern.factoryMethod.Food;
-import com.tajok.designPattern.factoryMethod.FoodFactory;
-import com.tajok.designPattern.proxy.Proxy;
-import com.tajok.designPattern.proxy.Source;
-import com.tajok.designPattern.strategy.AlgContext;
+import com.tajok.web.util.designPattern.factoryMethod.Food;
+import com.tajok.web.util.designPattern.factoryMethod.FoodFactory;
+import com.tajok.web.util.designPattern.proxy.Proxy;
+import com.tajok.web.util.designPattern.proxy.Source;
+import com.tajok.web.util.designPattern.strategy.AlgContext;
 
 public class TestDesignPattern {
 

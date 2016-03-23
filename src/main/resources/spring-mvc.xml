@@ -13,7 +13,8 @@
 	
 	
 	<!-- 自动扫描该包，使SpringMVC认为包下用了@controller注解的类是控制器 -->
-	<context:component-scan base-package="com.tajok.controller" />
+	<context:component-scan base-package="com.tajok.web.frontkit.controller" />
+	<context:component-scan base-package="com.tajok.web.backend.controller" />
 	
 	<!--避免IE执行AJAX时，返回JSON出现下载文件 -->
 	<bean id="mappingJacksonHttpMessageConverter"
@@ -56,4 +57,13 @@
 		<property name="maxInMemorySize" value="40960" />
 	</bean>
 
+	<!-- 自定义拦截链配置 -->  
+    <mvc:interceptors>  
+        <mvc:interceptor>  
+            <mvc:mapping path="/user/index.do"/>  
+            <mvc:mapping path="/user/info.do"/>  
+            <bean class="com.tajok.web.util.utils.UserInterceptor"></bean>  
+        </mvc:interceptor>  
+    </mvc:interceptors> 
+	
 </beans>

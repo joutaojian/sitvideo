@@ -1,0 +1,73 @@
+/* ----------------------------------------
+	* Filename:     common.css
+	* Description:  Global CSS
+	* CssCreate:    2013-01-31 13:02
+	* DesignFor:    CuPlayer.com
+------------------------------------------ */
+body {margin:0; padding:0;  margin-top:0px;font-size:12px; color:#313131;text-align: left; font-family:Verdana, Arial, Helvetica, sans-serif; background:#8a8a8a url(bg4.png) repeat; }
+div,ul,li,ol,dl,dt,dd,form,img,p{margin: 0; padding: 0; border: 0; }
+li{list-style-type:none;}
+h2,h4,h5{margin: 0; padding: 0; font-size:14px;}
+/* __link */
+a {color: #555555; text-decoration:none;}
+a:link {color: #555555;text-decoration:none;}
+a:visited {color: #555555;text-decoration:none;}
+a:hover {color: #eb3d00; text-decoration:underline;}
+a:active {color: #555555;}
+/* __color */
+.cWhite,a.cWhite:link,a.cWhite:visited{ color:#ffffff;}
+.cBlue,a.cBlue:link,a.cBlue:visited,a.cBlue:active{color:#2a86c0; }
+.cBlue2,a.cBlue2:link,a.cBlue2:visited,a.cBlue2:active{color:#285692; text-decoration:underline;}
+a.cBlue2:hover{color:red; }
+.cBlack,a.cBlack:link,a.cBlack:visited,a.cBlack:active{color:#000000; }
+.cRed,a.cRed:link,a.cRed:visited{ color:#eb3d00; }
+.cGold,a.Gold:link,a.Gold:visited{ color:gold; }
+.cOrange,a.cOrange:link,a.cOrange:visited{ color:orangered; }
+.cOrange2,a.cOrange2:link,a.cOrange2:visited{ color:#dd580a; }
+.cGray,a.cGray:link,a.cGray:visited{ color:#adacac; }
+.cGray2,a.cGray2:link,a.cGray2:visited{ color:#626262; }
+.cGreen,a.cGreen:link,a.cGreen:visited{ color:#3e8913; }
+.cGreen2,a.cGreen2:link,a.cGreen2:visited{ color:#336600; }
+.cYellow,a.cYellow:link,a.cYellow:visited{ color:#FFE0B2; }
+.cRed2,a.cRed2:link,a.cRed2:visited{ color:#ce0400; } a.cRed2:hover{ color:#000000; text-decoration:underline; }
+.cHe,a.cHe:link,a.cHe:visited{ color:#ca8006; }
+.cZi,a.cZi:link,a.cZi:visited{ color:#b2345e; }
+.cZi2,a.cZi2:link,a.cZi2:visited{ color:#970065; }
+.mark{color:#FF5A15;}
+.blue{color:blue;}
+.green{color:green;}
+.red{color:red;}
+/* __font */
+.f12{ font-size:12px; }
+.f14{ font-size:14px; }
+.f16{ font-size:16px; }
+.f18{ font-size:18px; }
+.f20{ font-size:20px; }
+.h18{ line-height:18px; }
+.h20{ line-height:20px; }
+.h22{ line-height:22px; }
+.h24{ line-height:24px; }
+.h26{ line-height:26px; }
+.h28{ line-height:28px; }
+.fn { font-weight:normal; }
+.h  { font-family:"ºÚÌå"; }
+.b  { font-weight: bold; }
+div.clearfix { zoom:1;}
+div.clearfix:after {content:".";clear:both;height:0;display:block;visibility:hidden;}
+/* Hide from IE Mac \*/ 
+.clearfix { display:block; } 
+/* header */
+div#header { height:40px; background:#000000;}
+div#header div.subnav{ width:960px;margin:0 auto;}
+div#header div.subnav p.sublogo {width:160px;float:left;}
+div#header div.subnav p.sublink {width:780px;float:left; border-right:1px #3e414a solid;}
+div#header div.subnav p.sublink a, div#header div.subnav p.sublink a:link,div#header div.subnav p.sublink a:visited { display:block;width:100px;float:right;font-size:12px;color:#cccccc; line-height:40px; text-decoration:none; text-align:center; border-left:1px #3e414a solid;}
+div#header div.subnav p.sublink a:hover{ color:#ffcc00; background:#3e414a;}
+/* getLight */
+.video { OVERFLOW: hidden; WIDTH: 100%; POSITION: relative}
+.close_light_bg {DISPLAY: none; BACKGROUND: #000;  LEFT: 0px; WIDTH: 100%; POSITION: absolute; TOP: 0px; HEIGHT: 100%;FILTER: alpha(opacity = 95); opacity: .95}
+/* content */
+div#content { width:960px;margin:0 auto;margin-top:20px;  padding:20px;  }
+div#content div#CuPlayer { width:600px;margin:0 auto;background:#000000; }
+/* footer */
+div#footer { width:960px;margin:0 auto; line-height:26px;padding:5px; text-align:center; clear:both; margin-top:25px;}

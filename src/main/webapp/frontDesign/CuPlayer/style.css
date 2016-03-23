@@ -1,0 +1,35 @@
+/* CSS Document */
+body { background:#ffffff; }
+.mark{color:#FF5A15;}
+.blue{color:blue;}
+.green{color:green;}
+.red{color:red;}
+.cGray,a.cGray:link,a.cGray:visited{ color:#6D6359; }
+.cOrange2,a.cOrange2:link,a.cOrange2:visited{ color:#ce0400; }
+.cOrange3,a.cOrange3:link,a.cOrange3:visited{ color:#ce0400;text-decoration:underline; }
+a.cOrange3:hover{  color:#6D6359; }
+.f12,h5{font-size:12px; font-weight:normal;}
+.cGreen2,a.cGreen2:link,a.cGreen2:visited{ color:#336600; }
+.en {font-family:Verdana, Arial, Helvetica, sans-serif,"ËÎÌו"; }
+
+div#code {background:#ffffff;}
+fieldset{border:1px #cccccc solid;padding:10px;margin-bottom:10px;display:block; font-family:Verdana, Arial, Helvetica, sans-serif;line-height:28px; text-align:left; background:#ffffff;}
+fieldset dl dt { line-height:28px;font-weight:bold; display:inline;}
+fieldset dl dd { line-height:28px; display:inline;}
+.cOrange21 {color:#ce0400; }
+.f121 {font-size:12px; font-weight:normal;}
+textarea { font-size:12px;#cccccc; line-height:24px; font-family:Verdana, Arial, Helvetica, sans-serif; background:#efefef; border:1px #666 solid;}
+div.maincontent { width:980px;margin:0 auto;align:center}
+
+ul.downurllist { padding-left:28px;}
+ul.downurllist li a,ul.downurllist li a:link,ul.downurllist li a:visited { color:#ffffff; height:34px;line-height:34px; display:block;}
+ul.downurllist li { width:118px;margin-right:10px;float:left; height:34px; line-height:34px; font-weight:bold; font-size:14px; color:#ffffff; text-align:center;background:url(http://www.52player.com/Images/btn_down.gif) no-repeat center center;margin-top:10px;} 
+ul.downurllist li.demo { width:118px;margin-right:10px;float:left; height:34px; line-height:34px; font-weight:bold; font-size:14px; color:#ffffff; text-align:center;background:url(http://www.52player.com/Images/btn_demo.gif) no-repeat center center;margin-top:10px;} 
+ul.downurllist li.demo a,ul.downurllist li.demo a:link,ul.downurllist li.demo a:visited { color:#975b02;}
+
+p.code {
+	padding: 1em;
+	line-height: 160%;
+	background: #f1fbd6 repeat scroll 0% 0% ;
+	border: 1px dashed rgb(124, 175, 0);
+}
