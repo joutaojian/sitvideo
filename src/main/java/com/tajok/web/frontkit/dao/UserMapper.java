@@ -1,6 +1,7 @@
 package com.tajok.web.frontkit.dao;
 
 import java.util.List;
+
 import com.tajok.web.frontkit.model.User;
 
 public interface UserMapper {
@@ -16,7 +17,8 @@ public interface UserMapper {
 
     int updateByPrimaryKey(User record);
 
-    //手动编写 
-    List<User> getAll();
-    User getByEmail(String email);
+	// 手动编写
+	List<User> getAll();
+
+	User getByEmail(String email);
 }

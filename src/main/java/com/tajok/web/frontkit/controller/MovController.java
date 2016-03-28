@@ -21,6 +21,17 @@ public class MovController {
 	private IMovService movService;//将本地的userService属性注入，等同且替代了setter
 	
 	/**
+	 * 观看视频
+	 * 转发
+	 * @param content
+	 * @return
+	 */
+	@RequestMapping("/show")
+	public String look(HttpServletRequest request){
+		return "/WEB-INF/jsp/front/movAction/mov.jsp";
+	}
+	
+	/**
 	 * 搜索视频
 	 * 转发
 	 * @param content

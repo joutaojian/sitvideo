@@ -139,11 +139,11 @@
     where id = #{id,jdbcType=INTEGER}
   </update>
   
-    <!-- 手动编写 -->
-	
+	<!-- 手动编写 -->
+
 	<select id="search" resultMap="BaseResultMap" parameterType="java.lang.String">
-		select * from t_mov where 
+		select * from t_mov where
 		name like CONCAT('%',#{content,jdbcType=VARCHAR},'%')
 	</select>
-  
+
 </mapper>

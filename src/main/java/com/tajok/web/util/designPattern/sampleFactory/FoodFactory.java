@@ -1,4 +1,4 @@
-package com.tajok.web.util.designPattern.factoryMethod;
+package com.tajok.web.util.designPattern.sampleFactory;
 
 public class FoodFactory {
 	

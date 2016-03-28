@@ -3,10 +3,14 @@ package com.tajok.web.frontkit.service.impl;
 import java.util.List;
 
 import javax.annotation.Resource;
+
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
 import com.tajok.web.frontkit.dao.UserMapper;
 import com.tajok.web.frontkit.model.User;
 import com.tajok.web.frontkit.service.IUserService;
+
 
 @Service("userService")
 public class UserServiceImpl implements IUserService {
@@ -52,8 +56,11 @@ public class UserServiceImpl implements IUserService {
 			return false;
 	}
 
+	@Transactional//事务
 	@Override
 	public void register(String name, int phone, int level, String email, String password) {
+		
+		//插入User表
 		User user = new User();
 		user.setName(name);
 		user.setEmail(email);

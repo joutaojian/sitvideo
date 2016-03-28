@@ -114,18 +114,18 @@
       level_id = #{levelId,jdbcType=INTEGER}
     where id = #{id,jdbcType=INTEGER}
   </update>
+  
+	<!-- 手动编写 -->
 
-  <!-- 手动编写 -->
-	
 	<select id="getAll" resultMap="BaseResultMap">
 		select * from t_user
 	</select>
-	
-	<select id="getByEmail" resultMap="BaseResultMap" parameterType="java.lang.String" >
-	   select 
-	   <include refid="Base_Column_List" />
-	   from t_user
-	   where email = #{email,jdbcType=VARCHAR}
+
+	<select id="getByEmail" resultMap="BaseResultMap" parameterType="java.lang.String">
+		select
+		<include refid="Base_Column_List" />
+		from t_user
+		where email = #{email,jdbcType=VARCHAR}
 	</select>
-	
+
 </mapper>

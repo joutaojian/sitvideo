@@ -27,7 +27,7 @@ public class JDBCUtil {
 		String username = null;
 		String password = null;
 		List<Map<String, Object>> rs_list = null;
-		sql = "insert into t_user values(?,?,?,?,?,?,?)";
+//		sql = "insert into t_user values(?,?,?,?,?,?,?)";
 		java.sql.PreparedStatement pstmt = null;
 		
 		// 1.加载MySql的驱动类

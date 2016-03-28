@@ -103,7 +103,7 @@
       time = #{time,jdbcType=TIMESTAMP}
     where id = #{id,jdbcType=INTEGER}
   </update>
-  
+    
   <!-- 手动 -->
   <select id="getByEmail" resultMap="BaseResultMap" parameterType="java.lang.String" >
     select 

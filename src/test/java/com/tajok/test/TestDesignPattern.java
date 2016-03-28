@@ -2,16 +2,21 @@ package com.tajok.test;
 
 import org.junit.Test;
 
-import com.tajok.web.util.designPattern.factoryMethod.Food;
-import com.tajok.web.util.designPattern.factoryMethod.FoodFactory;
+import com.tajok.web.frontkit.dao.UserImpl;
+import com.tajok.web.frontkit.dao.UserMapper;
+import com.tajok.web.util.designPattern.abstracFactory.JdbcDAOFactory;
 import com.tajok.web.util.designPattern.proxy.Proxy;
 import com.tajok.web.util.designPattern.proxy.Source;
+import com.tajok.web.util.designPattern.sampleFactory.Food;
+import com.tajok.web.util.designPattern.sampleFactory.FoodFactory;
+import com.tajok.web.util.designPattern.singleton.EagerSingleton;
+import com.tajok.web.util.designPattern.singleton.LazySingleton;
 import com.tajok.web.util.designPattern.strategy.AlgContext;
 
 public class TestDesignPattern {
 
 	/**
-	 * FactoryMethod：工厂模式就是一个对象工厂，用于快捷便利的创建对象，并使用对象的方法和属性
+	 * sampleFactory：简单工厂模式就是一个对象工厂，用于快捷便利的创建对象，并使用对象的方法和属性
 	 * 简单工厂模式，包含了面向对象的封装、继承、多态
 	 */
 	@Test
@@ -42,5 +47,27 @@ public class TestDesignPattern {
 	public void test3(){
 		Source source = new Proxy();
 		source.excuteMethod();
+	}
+	
+	/**
+	 * abstractFactory:抽象工厂模式
+	 */
+	@Test
+	public void test4(){
+		
+		JdbcDAOFactory jdbc = new JdbcDAOFactory();
+		UserMapper userDao= (UserMapper)jdbc.createDAO(UserImpl.class.getName());
+		System.out.println(userDao);
+	}
+	
+	/**
+	 * singletonFactory:单例模式
+	 */
+	@Test
+	public void test5(){
+		
+		System.out.println("饿汉:"+EagerSingleton.getInstance().equals(EagerSingleton.getInstance()));
+		System.out.println("懒汉："+LazySingleton.getInstance().equals(LazySingleton.getInstance()));
+		
 	}
 }
