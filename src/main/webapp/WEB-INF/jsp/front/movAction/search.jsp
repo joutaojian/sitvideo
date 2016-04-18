@@ -86,966 +86,1042 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		</div>
 	</div>
 	<% }%>
-	
-	<div class="stock_box" align = "center">
-	 
-	  <div class="col-md-10 sap_tabs" align = "center">	
-	       <div id="horizontalTab" style="display: block; width: 100%; margin: 0px;">
-			  <ul class="resp-tabs-list">
-			  	  <li class="resp-tab-item" aria-controls="tab_item-0" role="tab"><span>Level - 1</span></li>
-				  <li class="resp-tab-item" aria-controls="tab_item-1" role="tab"><span>Level - 2</span></li>
-				  <li class="resp-tab-item" aria-controls="tab_item-2" role="tab"><span>Level - 3</span></li>
-				  <li class="resp-tab-item" aria-controls="tab_item-3" role="tab"><span>Level - 4</span></li>
-				  <div class="clearfix"></div>
-			  </ul>				  	 
+	<div class="stock_box">
+
+		<!--<div class="col-md-10 sap_tabs">	-->
+		<div>
+			<div id="horizontalTab" style="display: block; width: 100%; margin: 0px;">
+				<ul class="resp-tabs-list">
+					<li class="resp-tab-item" aria-controls="tab_item-0" role="tab"><span>Level
+							- 1</span></li>
+					<li class="resp-tab-item" aria-controls="tab_item-1" role="tab"><span>Level
+							- 2</span></li>
+					<li class="resp-tab-item" aria-controls="tab_item-2" role="tab"><span>Level
+							- 3</span></li>
+					<li class="resp-tab-item" aria-controls="tab_item-3" role="tab"><span>Level
+							- 4</span></li>
+					<div class="clearfix"></div>
+				</ul>
 				<div class="resp-tabs-container" align=center>
-				   <div class="tab-1 resp-tab-content" aria-labelledby="tab_item-0">
+					<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-0">
 						<ul class="tab_img">
-						  <li><a href="../frontDesign/single.html">
-							 <img src="../frontDesign/images/pic1.jpg" class="img-responsive" alt=""/>
-						     <div class="tab_desc">
-								<p>There are many variations</p>
-								<h4>#25478921</h4>
-							 </div>
-						   </a></li>
-							<li><a href="../frontDesign/single.html">
-							 <img src="../frontDesign/images/pic2.jpg" class="img-responsive" alt=""/>
-						     <div class="tab_desc">
-								<p>There are many variations</p>
-								<h4>#25478921</h4>
-							 </div>
-						   </a></li>
-							<li><a href="../frontDesign/single.html">
-							 <img src="../frontDesign/images/pic3.jpg" class="img-responsive" alt=""/>
-						     <div class="tab_desc">
-								<p>There are many variations</p>
-								<h4>#25478921</h4>
-							 </div>
-						   </a></li>
-						    <li><a href="../frontDesign/single.html">
-							 <img src="../frontDesign/images/pic4.jpg" class="img-responsive" alt=""/>
-						     <div class="tab_desc">
-								<p>There are many variations</p>
-								<h4>#25478921</h4>
-							 </div>
-						   </a></li>
-						   <li><a href="../frontDesign/single.html">
-							 <img src="../frontDesign/images/pic5.jpg" class="img-responsive" alt=""/>
-						     <div class="tab_desc">
-								<p>There are many variations</p>
-								<h4>#25478921</h4>
-							 </div>
-						   </a></li>
-						   <li class="last"><a href="../frontDesign/single.html">
-							 <img src="../frontDesign/images/pic6.jpg" class="img-responsive" alt=""/>
-						     <div class="tab_desc">
-								<p>There are many variations</p>
-								<h4>#25478921</h4>
-							 </div>
-						   </a></li>
-						   <li><a href="../frontDesign/single.html">
-							 <img src="../frontDesign/images/pic6.jpg" class="img-responsive" alt=""/>
-						     <div class="tab_desc">
-								<p>There are many variations</p>
-								<h4>#25478921</h4>
-							 </div>
-						   </a></li>
-						   <li><a href="../frontDesign/single.html">
-							 <img src="../frontDesign/images/pic7.jpg" class="img-responsive" alt=""/>
-						     <div class="tab_desc">
-								<p>There are many variations</p>
-								<h4>#25478921</h4>
-							 </div>
-						   </a></li>
-						   <li><a href="../frontDesign/single.html">
-							 <img src="../frontDesign/images/pic8.jpg" class="img-responsive" alt=""/>
-						     <div class="tab_desc">
-								<p>There are many variations</p>
-								<h4>#25478921</h4>
-							 </div>
-						   </a></li>
-						   <li><a href="../frontDesign/single.html">
-							 <img src="../frontDesign/images/pic9.jpg" class="img-responsive" alt=""/>
-						     <div class="tab_desc">
-								<p>There are many variations</p>
-								<h4>#25478921</h4>
-							 </div>
-						   </a></li>
-						   <li><a href="../frontDesign/single.html">
-							 <img src="../frontDesign/images/pic10.jpg" class="img-responsive" alt=""/>
-						     <div class="tab_desc">
-								<p>There are many variations</p>
-								<h4>#25478921</h4>
-							 </div>
-						   </a></li>
-						   <li class="last"><a href="../frontDesign/single.html">
-							 <img src="../frontDesign/images/pic11.jpg" class="img-responsive" alt=""/>
-						     <div class="tab_desc">
-								<p>There are many variations</p>
-								<h4>#25478921</h4>
-							 </div>
-						   </a></li>
-						   <li><a href="../frontDesign/single.html">
-							 <img src="../frontDesign/images/pic12.jpg" class="img-responsive" alt=""/>
-						     <div class="tab_desc">
-								<p>There are many variations</p>
-								<h4>#25478921</h4>
-							 </div>
-						   </a></li>
-						   <li><a href="../frontDesign/single.html">
-							 <img src="../frontDesign/images/pic13.jpg" class="img-responsive" alt=""/>
-						     <div class="tab_desc">
-								<p>There are many variations</p>
-								<h4>#25478921</h4>
-							 </div>
-						   </a></li>
-						   <li><a href="../frontDesign/single.html">
-							 <img src="../frontDesign/images/pic14.jpg" class="img-responsive" alt=""/>
-						     <div class="tab_desc">
-								<p>There are many variations</p>
-								<h4>#25478921</h4>
-							 </div>
-						   </a></li>
-						   <li><a href="../frontDesign/single.html">
-							 <img src="../frontDesign/images/pic15.jpg" class="img-responsive" alt=""/>
-						     <div class="tab_desc">
-								<p>There are many variations</p>
-								<h4>#25478921</h4>
-							 </div>
-						   </a></li>
-						   <li><a href="../frontDesign/single.html">
-							 <img src="../frontDesign/images/pic16.jpg" class="img-responsive" alt=""/>
-						     <div class="tab_desc">
-								<p>There are many variations</p>
-								<h4>#25478921</h4>
-							 </div>
-						   </a></li>
-						   <li class="last"><a href="../frontDesign/single.html">
-							 <img src="../frontDesign/images/pic17.jpg" class="img-responsive" alt=""/>
-						     <div class="tab_desc">
-								<p>There are many variations</p>
-								<h4>#25478921</h4>
-							 </div>
-						   </a></li>
-						   <li><a href="../frontDesign/single.html">
-							 <img src="../frontDesign/images/pic18.jpg" class="img-responsive" alt=""/>
-						     <div class="tab_desc">
-								<p>There are many variations</p>
-								<h4>#25478921</h4>
-							 </div>
-						   </a></li>
-						   <li><a href="../frontDesign/single.html">
-							 <img src="../frontDesign/images/pic19.jpg" class="img-responsive" alt=""/>
-						     <div class="tab_desc">
-								<p>There are many variations</p>
-								<h4>#25478921</h4>
-							 </div>
-						   </a></li>
-						   <li><a href="../frontDesign/single.html">
-							 <img src="../frontDesign/images/pic20.jpg" class="img-responsive" alt=""/>
-						     <div class="tab_desc">
-								<p>There are many variations</p>
-								<h4>#25478921</h4>
-							 </div>
-						   </a></li>
-						   <li><a href="../frontDesign/single.html">
-							 <img src="../frontDesign/images/pic21.jpg" class="img-responsive" alt=""/>
-						     <div class="tab_desc">
-								<p>There are many variations</p>
-								<h4>#25478921</h4>
-							 </div>
-						   </a></li>
-						   <li><a href="../frontDesign/single.html">
-							 <img src="../frontDesign/images/pic22.jpg" class="img-responsive" alt=""/>
-						     <div class="tab_desc">
-								<p>There are many variations</p>
-								<h4>#25478921</h4>
-							 </div>
-						   </a></li>
-						   <li class="last"><a href="../frontDesign/single.html">
-							 <img src="../frontDesign/images/pic23.jpg" class="img-responsive" alt=""/>
-						     <div class="tab_desc">
-								<p>There are many variations</p>
-								<h4>#25478921</h4>
-							 </div>
-						   </a></li>
-						   <li><a href="../frontDesign/single.html">
-							 <img src="../frontDesign/images/pic24.jpg" class="img-responsive" alt=""/>
-						     <div class="tab_desc">
-								<p>There are many variations</p>
-								<h4>#25478921</h4>
-							 </div>
-						   </a></li>
-						   <li><a href="../frontDesign/single.html">
-							 <img src="../frontDesign/images/pic25.jpg" class="img-responsive" alt=""/>
-						     <div class="tab_desc">
-								<p>There are many variations</p>
-								<h4>#25478921</h4>
-							 </div>
-						   </a></li>
-						   <li><a href="../frontDesign/single.html">
-							 <img src="../frontDesign/images/pic26.jpg" class="img-responsive" alt=""/>
-						     <div class="tab_desc">
-								<p>There are many variations</p>
-								<h4>#25478921</h4>
-							 </div>
-						   </a></li>
-						   <li><a href="../frontDesign/single.html">
-							 <img src="../frontDesign/images/pic27.jpg" class="img-responsive" alt=""/>
-						     <div class="tab_desc">
-								<p>There are many variations</p>
-								<h4>#25478921</h4>
-							 </div>
-						   </a></li>
-						   <li><a href="../frontDesign/single.html">
-							 <img src="../frontDesign/images/pic28.jpg" class="img-responsive" alt=""/>
-						     <div class="tab_desc">
-								<p>There are many variations</p>
-								<h4>#25478921</h4>
-							 </div>
-						   </a></li>
-						   <li class="last"><a href="../frontDesign/single.html">
-							 <img src="../frontDesign/images/pic29.jpg" class="img-responsive" alt=""/>
-						     <div class="tab_desc">
-								<p>There are many variations</p>
-								<h4>#25478921</h4>
-							 </div>
-						   </a></li>
-						   <div class="clearfix"></div>
+							<li><a href="../frontDesign/single.html"> <img src="../frontDesign/images/pic1.jpg" class="img-responsive" alt="" />
+									<div class="tab_desc">
+										<p>There are many variations</p>
+										<h4>#25478921</h4>
+									</div>
+							</a></li>
+							<li><a href="../frontDesign/single.html"> <img
+									src="../frontDesign/images/pic2.jpg" class="img-responsive"
+									alt="" />
+									<div class="tab_desc">
+										<p>There are many variations</p>
+										<h4>#25478921</h4>
+									</div>
+							</a></li>
+							<li><a href="../frontDesign/single.html"> <img
+									src="../frontDesign/images/pic3.jpg" class="img-responsive"
+									alt="" />
+									<div class="tab_desc">
+										<p>There are many variations</p>
+										<h4>#25478921</h4>
+									</div>
+							</a></li>
+							<li><a href="../frontDesign/single.html"> <img
+									src="../frontDesign/images/pic4.jpg" class="img-responsive"
+									alt="" />
+									<div class="tab_desc">
+										<p>There are many variations</p>
+										<h4>#25478921</h4>
+									</div>
+							</a></li>
+							<li><a href="../frontDesign/single.html"> <img
+									src="../frontDesign/images/pic5.jpg" class="img-responsive"
+									alt="" />
+									<div class="tab_desc">
+										<p>There are many variations</p>
+										<h4>#25478921</h4>
+									</div>
+							</a></li>
+							<li class="last"><a href="../frontDesign/single.html"> <img
+									src="../frontDesign/images/pic6.jpg" class="img-responsive"
+									alt="" />
+									<div class="tab_desc">
+										<p>There are many variations</p>
+										<h4>#25478921</h4>
+									</div>
+							</a></li>
+							<li><a href="../frontDesign/single.html"> <img
+									src="../frontDesign/images/pic6.jpg" class="img-responsive"
+									alt="" />
+									<div class="tab_desc">
+										<p>There are many variations</p>
+										<h4>#25478921</h4>
+									</div>
+							</a></li>
+							<li><a href="../frontDesign/single.html"> <img
+									src="../frontDesign/images/pic7.jpg" class="img-responsive"
+									alt="" />
+									<div class="tab_desc">
+										<p>There are many variations</p>
+										<h4>#25478921</h4>
+									</div>
+							</a></li>
+							<li><a href="../frontDesign/single.html"> <img
+									src="../frontDesign/images/pic8.jpg" class="img-responsive"
+									alt="" />
+									<div class="tab_desc">
+										<p>There are many variations</p>
+										<h4>#25478921</h4>
+									</div>
+							</a></li>
+							<li><a href="../frontDesign/single.html"> <img
+									src="../frontDesign/images/pic9.jpg" class="img-responsive"
+									alt="" />
+									<div class="tab_desc">
+										<p>There are many variations</p>
+										<h4>#25478921</h4>
+									</div>
+							</a></li>
+							<li><a href="../frontDesign/single.html"> <img
+									src="../frontDesign/images/pic10.jpg" class="img-responsive"
+									alt="" />
+									<div class="tab_desc">
+										<p>There are many variations</p>
+										<h4>#25478921</h4>
+									</div>
+							</a></li>
+							<li class="last"><a href="../frontDesign/single.html"> <img
+									src="../frontDesign/images/pic11.jpg" class="img-responsive"
+									alt="" />
+									<div class="tab_desc">
+										<p>There are many variations</p>
+										<h4>#25478921</h4>
+									</div>
+							</a></li>
+							<li><a href="../frontDesign/single.html"> <img
+									src="../frontDesign/images/pic12.jpg" class="img-responsive"
+									alt="" />
+									<div class="tab_desc">
+										<p>There are many variations</p>
+										<h4>#25478921</h4>
+									</div>
+							</a></li>
+							<li><a href="../frontDesign/single.html"> <img
+									src="../frontDesign/images/pic13.jpg" class="img-responsive"
+									alt="" />
+									<div class="tab_desc">
+										<p>There are many variations</p>
+										<h4>#25478921</h4>
+									</div>
+							</a></li>
+							<li><a href="../frontDesign/single.html"> <img
+									src="../frontDesign/images/pic14.jpg" class="img-responsive"
+									alt="" />
+									<div class="tab_desc">
+										<p>There are many variations</p>
+										<h4>#25478921</h4>
+									</div>
+							</a></li>
+							<li><a href="../frontDesign/single.html"> <img
+									src="../frontDesign/images/pic15.jpg" class="img-responsive"
+									alt="" />
+									<div class="tab_desc">
+										<p>There are many variations</p>
+										<h4>#25478921</h4>
+									</div>
+							</a></li>
+							<li><a href="../frontDesign/single.html"> <img
+									src="../frontDesign/images/pic16.jpg" class="img-responsive"
+									alt="" />
+									<div class="tab_desc">
+										<p>There are many variations</p>
+										<h4>#25478921</h4>
+									</div>
+							</a></li>
+							<li class="last"><a href="../frontDesign/single.html"> <img
+									src="../frontDesign/images/pic17.jpg" class="img-responsive"
+									alt="" />
+									<div class="tab_desc">
+										<p>There are many variations</p>
+										<h4>#25478921</h4>
+									</div>
+							</a></li>
+							<li><a href="../frontDesign/single.html"> <img
+									src="../frontDesign/images/pic18.jpg" class="img-responsive"
+									alt="" />
+									<div class="tab_desc">
+										<p>There are many variations</p>
+										<h4>#25478921</h4>
+									</div>
+							</a></li>
+							<li><a href="../frontDesign/single.html"> <img
+									src="../frontDesign/images/pic19.jpg" class="img-responsive"
+									alt="" />
+									<div class="tab_desc">
+										<p>There are many variations</p>
+										<h4>#25478921</h4>
+									</div>
+							</a></li>
+							<li><a href="../frontDesign/single.html"> <img
+									src="../frontDesign/images/pic20.jpg" class="img-responsive"
+									alt="" />
+									<div class="tab_desc">
+										<p>There are many variations</p>
+										<h4>#25478921</h4>
+									</div>
+							</a></li>
+							<li><a href="../frontDesign/single.html"> <img
+									src="../frontDesign/images/pic21.jpg" class="img-responsive"
+									alt="" />
+									<div class="tab_desc">
+										<p>There are many variations</p>
+										<h4>#25478921</h4>
+									</div>
+							</a></li>
+							<li><a href="../frontDesign/single.html"> <img
+									src="../frontDesign/images/pic22.jpg" class="img-responsive"
+									alt="" />
+									<div class="tab_desc">
+										<p>There are many variations</p>
+										<h4>#25478921</h4>
+									</div>
+							</a></li>
+							<li class="last"><a href="../frontDesign/single.html"> <img
+									src="../frontDesign/images/pic23.jpg" class="img-responsive"
+									alt="" />
+									<div class="tab_desc">
+										<p>There are many variations</p>
+										<h4>#25478921</h4>
+									</div>
+							</a></li>
+							<li><a href="../frontDesign/single.html"> <img
+									src="../frontDesign/images/pic24.jpg" class="img-responsive"
+									alt="" />
+									<div class="tab_desc">
+										<p>There are many variations</p>
+										<h4>#25478921</h4>
+									</div>
+							</a></li>
+							<li><a href="../frontDesign/single.html"> <img
+									src="../frontDesign/images/pic25.jpg" class="img-responsive"
+									alt="" />
+									<div class="tab_desc">
+										<p>There are many variations</p>
+										<h4>#25478921</h4>
+									</div>
+							</a></li>
+							<li><a href="../frontDesign/single.html"> <img
+									src="../frontDesign/images/pic26.jpg" class="img-responsive"
+									alt="" />
+									<div class="tab_desc">
+										<p>There are many variations</p>
+										<h4>#25478921</h4>
+									</div>
+							</a></li>
+							<li><a href="../frontDesign/single.html"> <img
+									src="../frontDesign/images/pic27.jpg" class="img-responsive"
+									alt="" />
+									<div class="tab_desc">
+										<p>There are many variations</p>
+										<h4>#25478921</h4>
+									</div>
+							</a></li>
+							<li><a href="../frontDesign/single.html"> <img
+									src="../frontDesign/images/pic28.jpg" class="img-responsive"
+									alt="" />
+									<div class="tab_desc">
+										<p>There are many variations</p>
+										<h4>#25478921</h4>
+									</div>
+							</a></li>
+							<li class="last"><a href="../frontDesign/single.html"> <img
+									src="../frontDesign/images/pic29.jpg" class="img-responsive"
+									alt="" />
+									<div class="tab_desc">
+										<p>There are many variations</p>
+										<h4>#25478921</h4>
+									</div>
+							</a></li>
+							<div class="clearfix"></div>
 						</ul>
-				     </div>	
-				     <div class="tab-1 resp-tab-content" aria-labelledby="tab_item-1">
+					</div>
+					<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-1">
 						<ul class="tab_img">
-						  <li><a href="../frontDesign/single.html">
-							 <img src="../frontDesign/images/pic30.jpg" class="img-responsive" alt=""/>
-						     <div class="tab_desc">
-								<p>There are many variations</p>
-								<h4>#25478921</h4>
-							 </div>
-						   </a></li>
-						   <li><a href="../frontDesign/single.html">
-							 <img src="../frontDesign/images/pic31.jpg" class="img-responsive" alt=""/>
-						     <div class="tab_desc">
-								<p>There are many variations</p>
-								<h4>#25478921</h4>
-							 </div>
-						   </a></li>
-							<li><a href="../frontDesign/single.html">
-							 <img src="../frontDesign/images/pic32.jpg" class="img-responsive" alt=""/>
-						     <div class="tab_desc">
-								<p>There are many variations</p>
-								<h4>#25478921</h4>
-							 </div>
-						   </a></li>
-						    <li><a href="../frontDesign/single.html">
-							 <img src="../frontDesign/images/pic33.jpg" class="img-responsive" alt=""/>
-						     <div class="tab_desc">
-								<p>There are many variations</p>
-								<h4>#25478921</h4>
-							 </div>
-						   </a></li>
-						   <li><a href="../frontDesign/single.html">
-							 <img src="../frontDesign/images/pic34.jpg" class="img-responsive" alt=""/>
-						     <div class="tab_desc">
-								<p>There are many variations</p>
-								<h4>#25478921</h4>
-							 </div>
-						   </a></li>
-						   <li class="last"><a href="../frontDesign/single.html">
-							 <img src="../frontDesign/images/pic35.jpg" class="img-responsive" alt=""/>
-						     <div class="tab_desc">
-								<p>There are many variations</p>
-								<h4>#25478921</h4>
-							 </div>
-						   </a></li>
-						   <li><a href="../frontDesign/single.html">
-							 <img src="../frontDesign/images/pic36.jpg" class="img-responsive" alt=""/>
-						     <div class="tab_desc">
-								<p>There are many variations</p>
-								<h4>#25478921</h4>
-							 </div>
-						   </a></li>
-						   <li><a href="../frontDesign/single.html">
-							 <img src="../frontDesign/images/pic37.jpg" class="img-responsive" alt=""/>
-						     <div class="tab_desc">
-								<p>There are many variations</p>
-								<h4>#25478921</h4>
-							 </div>
-						   </a></li>
-						   <li><a href="../frontDesign/single.html">
-							 <img src="../frontDesign/images/pic38.jpg" class="img-responsive" alt=""/>
-						     <div class="tab_desc">
-								<p>There are many variations</p>
-								<h4>#25478921</h4>
-							 </div>
-						   </a></li>
-						   <li><a href="../frontDesign/single.html">
-							 <img src="../frontDesign/images/pic39.jpg" class="img-responsive" alt=""/>
-						     <div class="tab_desc">
-								<p>There are many variations</p>
-								<h4>#25478921</h4>
-							 </div>
-						   </a></li>
-						   <li><a href="../frontDesign/single.html">
-							 <img src="../frontDesign/images/pic10.jpg" class="img-responsive" alt=""/>
-						     <div class="tab_desc">
-								<p>There are many variations</p>
-								<h4>#25478921</h4>
-							 </div>
-						   </a></li>
-						   <li class="last"><a href="../frontDesign/single.html">
-							 <img src="../frontDesign/images/pic11.jpg" class="img-responsive" alt=""/>
-						     <div class="tab_desc">
-								<p>There are many variations</p>
-								<h4>#25478921</h4>
-							 </div>
-						   </a></li>
-						   <li><a href="../frontDesign/single.html">
-							 <img src="../frontDesign/images/pic12.jpg" class="img-responsive" alt=""/>
-						     <div class="tab_desc">
-								<p>There are many variations</p>
-								<h4>#25478921</h4>
-							 </div>
-						   </a></li>
-						   <li><a href="../frontDesign/single.html">
-							 <img src="../frontDesign/images/pic13.jpg" class="img-responsive" alt=""/>
-						     <div class="tab_desc">
-								<p>There are many variations</p>
-								<h4>#25478921</h4>
-							 </div>
-						   </a></li>
-						   <li><a href="../frontDesign/single.html">
-							 <img src="../frontDesign/images/pic14.jpg" class="img-responsive" alt=""/>
-						     <div class="tab_desc">
-								<p>There are many variations</p>
-								<h4>#25478921</h4>
-							 </div>
-						   </a></li>
-						   <li><a href="../frontDesign/single.html">
-							 <img src="../frontDesign/images/pic15.jpg" class="img-responsive" alt=""/>
-						     <div class="tab_desc">
-								<p>There are many variations</p>
-								<h4>#25478921</h4>
-							 </div>
-						   </a></li>
-						   <li><a href="../frontDesign/single.html">
-							 <img src="../frontDesign/images/pic16.jpg" class="img-responsive" alt=""/>
-						     <div class="tab_desc">
-								<p>There are many variations</p>
-								<h4>#25478921</h4>
-							 </div>
-						   </a></li>
-						   <li class="last"><a href="../frontDesign/single.html">
-							 <img src="../frontDesign/images/pic17.jpg" class="img-responsive" alt=""/>
-						     <div class="tab_desc">
-								<p>There are many variations</p>
-								<h4>#25478921</h4>
-							 </div>
-						   </a></li>
-						   <li><a href="../frontDesign/single.html">
-							 <img src="../frontDesign/images/pic18.jpg" class="img-responsive" alt=""/>
-						     <div class="tab_desc">
-								<p>There are many variations</p>
-								<h4>#25478921</h4>
-							 </div>
-						   </a></li>
-						   <li><a href="../frontDesign/single.html">
-							 <img src="../frontDesign/images/pic19.jpg" class="img-responsive" alt=""/>
-						     <div class="tab_desc">
-								<p>There are many variations</p>
-								<h4>#25478921</h4>
-							 </div>
-						   </a></li>
-						   <li><a href="../frontDesign/single.html">
-							 <img src="../frontDesign/images/pic20.jpg" class="img-responsive" alt=""/>
-						     <div class="tab_desc">
-								<p>There are many variations</p>
-								<h4>#25478921</h4>
-							 </div>
-						   </a></li>
-						   <li><a href="../frontDesign/single.html">
-							 <img src="../frontDesign/images/pic21.jpg" class="img-responsive" alt=""/>
-						     <div class="tab_desc">
-								<p>There are many variations</p>
-								<h4>#25478921</h4>
-							 </div>
-						   </a></li>
-						   <li><a href="../frontDesign/single.html">
-							 <img src="../frontDesign/images/pic22.jpg" class="img-responsive" alt=""/>
-						     <div class="tab_desc">
-								<p>There are many variations</p>
-								<h4>#25478921</h4>
-							 </div>
-						   </a></li>
-						   <li class="last"><a href="../frontDesign/single.html">
-							 <img src="../frontDesign/images/pic23.jpg" class="img-responsive" alt=""/>
-						     <div class="tab_desc">
-								<p>There are many variations</p>
-								<h4>#25478921</h4>
-							 </div>
-						   </a></li>
-						   <li><a href="../frontDesign/single.html">
-							 <img src="../frontDesign/images/pic24.jpg" class="img-responsive" alt=""/>
-						     <div class="tab_desc">
-								<p>There are many variations</p>
-								<h4>#25478921</h4>
-							 </div>
-						   </a></li>
-						   <li><a href="../frontDesign/single.html">
-							 <img src="../frontDesign/images/pic25.jpg" class="img-responsive" alt=""/>
-						     <div class="tab_desc">
-								<p>There are many variations</p>
-								<h4>#25478921</h4>
-							 </div>
-						   </a></li>
-						   <li><a href="../frontDesign/single.html">
-							 <img src="../frontDesign/images/pic26.jpg" class="img-responsive" alt=""/>
-						     <div class="tab_desc">
-								<p>There are many variations</p>
-								<h4>#25478921</h4>
-							 </div>
-						   </a></li>
-						   <li><a href="../frontDesign/single.html">
-							 <img src="../frontDesign/images/pic27.jpg" class="img-responsive" alt=""/>
-						     <div class="tab_desc">
-								<p>There are many variations</p>
-								<h4>#25478921</h4>
-							 </div>
-						   </a></li>
-						   <li><a href="../frontDesign/single.html">
-							 <img src="../frontDesign/images/pic28.jpg" class="img-responsive" alt=""/>
-						     <div class="tab_desc">
-								<p>There are many variations</p>
-								<h4>#25478921</h4>
-							 </div>
-						   </a></li>
-						   <li class="last"><a href="../frontDesign/single.html">
-							 <img src="../frontDesign/images/pic29.jpg" class="img-responsive" alt=""/>
-						     <div class="tab_desc">
-								<p>There are many variations</p>
-								<h4>#25478921</h4>
-							 </div>
-						   </a></li>
-						   <div class="clearfix"></div>
+							<li><a href="../frontDesign/single.html"> <img
+									src="../frontDesign/images/pic30.jpg" class="img-responsive"
+									alt="" />
+									<div class="tab_desc">
+										<p>There are many variations</p>
+										<h4>#25478921</h4>
+									</div>
+							</a></li>
+							<li><a href="../frontDesign/single.html"> <img
+									src="../frontDesign/images/pic31.jpg" class="img-responsive"
+									alt="" />
+									<div class="tab_desc">
+										<p>There are many variations</p>
+										<h4>#25478921</h4>
+									</div>
+							</a></li>
+							<li><a href="../frontDesign/single.html"> <img
+									src="../frontDesign/images/pic32.jpg" class="img-responsive"
+									alt="" />
+									<div class="tab_desc">
+										<p>There are many variations</p>
+										<h4>#25478921</h4>
+									</div>
+							</a></li>
+							<li><a href="../frontDesign/single.html"> <img
+									src="../frontDesign/images/pic33.jpg" class="img-responsive"
+									alt="" />
+									<div class="tab_desc">
+										<p>There are many variations</p>
+										<h4>#25478921</h4>
+									</div>
+							</a></li>
+							<li><a href="../frontDesign/single.html"> <img
+									src="../frontDesign/images/pic34.jpg" class="img-responsive"
+									alt="" />
+									<div class="tab_desc">
+										<p>There are many variations</p>
+										<h4>#25478921</h4>
+									</div>
+							</a></li>
+							<li class="last"><a href="../frontDesign/single.html"> <img
+									src="../frontDesign/images/pic35.jpg" class="img-responsive"
+									alt="" />
+									<div class="tab_desc">
+										<p>There are many variations</p>
+										<h4>#25478921</h4>
+									</div>
+							</a></li>
+							<li><a href="../frontDesign/single.html"> <img
+									src="../frontDesign/images/pic36.jpg" class="img-responsive"
+									alt="" />
+									<div class="tab_desc">
+										<p>There are many variations</p>
+										<h4>#25478921</h4>
+									</div>
+							</a></li>
+							<li><a href="../frontDesign/single.html"> <img
+									src="../frontDesign/images/pic37.jpg" class="img-responsive"
+									alt="" />
+									<div class="tab_desc">
+										<p>There are many variations</p>
+										<h4>#25478921</h4>
+									</div>
+							</a></li>
+							<li><a href="../frontDesign/single.html"> <img
+									src="../frontDesign/images/pic38.jpg" class="img-responsive"
+									alt="" />
+									<div class="tab_desc">
+										<p>There are many variations</p>
+										<h4>#25478921</h4>
+									</div>
+							</a></li>
+							<li><a href="../frontDesign/single.html"> <img
+									src="../frontDesign/images/pic39.jpg" class="img-responsive"
+									alt="" />
+									<div class="tab_desc">
+										<p>There are many variations</p>
+										<h4>#25478921</h4>
+									</div>
+							</a></li>
+							<li><a href="../frontDesign/single.html"> <img
+									src="../frontDesign/images/pic10.jpg" class="img-responsive"
+									alt="" />
+									<div class="tab_desc">
+										<p>There are many variations</p>
+										<h4>#25478921</h4>
+									</div>
+							</a></li>
+							<li class="last"><a href="../frontDesign/single.html"> <img
+									src="../frontDesign/images/pic11.jpg" class="img-responsive"
+									alt="" />
+									<div class="tab_desc">
+										<p>There are many variations</p>
+										<h4>#25478921</h4>
+									</div>
+							</a></li>
+							<li><a href="../frontDesign/single.html"> <img
+									src="../frontDesign/images/pic12.jpg" class="img-responsive"
+									alt="" />
+									<div class="tab_desc">
+										<p>There are many variations</p>
+										<h4>#25478921</h4>
+									</div>
+							</a></li>
+							<li><a href="../frontDesign/single.html"> <img
+									src="../frontDesign/images/pic13.jpg" class="img-responsive"
+									alt="" />
+									<div class="tab_desc">
+										<p>There are many variations</p>
+										<h4>#25478921</h4>
+									</div>
+							</a></li>
+							<li><a href="../frontDesign/single.html"> <img
+									src="../frontDesign/images/pic14.jpg" class="img-responsive"
+									alt="" />
+									<div class="tab_desc">
+										<p>There are many variations</p>
+										<h4>#25478921</h4>
+									</div>
+							</a></li>
+							<li><a href="../frontDesign/single.html"> <img
+									src="../frontDesign/images/pic15.jpg" class="img-responsive"
+									alt="" />
+									<div class="tab_desc">
+										<p>There are many variations</p>
+										<h4>#25478921</h4>
+									</div>
+							</a></li>
+							<li><a href="../frontDesign/single.html"> <img
+									src="../frontDesign/images/pic16.jpg" class="img-responsive"
+									alt="" />
+									<div class="tab_desc">
+										<p>There are many variations</p>
+										<h4>#25478921</h4>
+									</div>
+							</a></li>
+							<li class="last"><a href="../frontDesign/single.html"> <img
+									src="../frontDesign/images/pic17.jpg" class="img-responsive"
+									alt="" />
+									<div class="tab_desc">
+										<p>There are many variations</p>
+										<h4>#25478921</h4>
+									</div>
+							</a></li>
+							<li><a href="../frontDesign/single.html"> <img
+									src="../frontDesign/images/pic18.jpg" class="img-responsive"
+									alt="" />
+									<div class="tab_desc">
+										<p>There are many variations</p>
+										<h4>#25478921</h4>
+									</div>
+							</a></li>
+							<li><a href="../frontDesign/single.html"> <img
+									src="../frontDesign/images/pic19.jpg" class="img-responsive"
+									alt="" />
+									<div class="tab_desc">
+										<p>There are many variations</p>
+										<h4>#25478921</h4>
+									</div>
+							</a></li>
+							<li><a href="../frontDesign/single.html"> <img
+									src="../frontDesign/images/pic20.jpg" class="img-responsive"
+									alt="" />
+									<div class="tab_desc">
+										<p>There are many variations</p>
+										<h4>#25478921</h4>
+									</div>
+							</a></li>
+							<li><a href="../frontDesign/single.html"> <img
+									src="../frontDesign/images/pic21.jpg" class="img-responsive"
+									alt="" />
+									<div class="tab_desc">
+										<p>There are many variations</p>
+										<h4>#25478921</h4>
+									</div>
+							</a></li>
+							<li><a href="../frontDesign/single.html"> <img
+									src="../frontDesign/images/pic22.jpg" class="img-responsive"
+									alt="" />
+									<div class="tab_desc">
+										<p>There are many variations</p>
+										<h4>#25478921</h4>
+									</div>
+							</a></li>
+							<li class="last"><a href="../frontDesign/single.html"> <img
+									src="../frontDesign/images/pic23.jpg" class="img-responsive"
+									alt="" />
+									<div class="tab_desc">
+										<p>There are many variations</p>
+										<h4>#25478921</h4>
+									</div>
+							</a></li>
+							<li><a href="../frontDesign/single.html"> <img
+									src="../frontDesign/images/pic24.jpg" class="img-responsive"
+									alt="" />
+									<div class="tab_desc">
+										<p>There are many variations</p>
+										<h4>#25478921</h4>
+									</div>
+							</a></li>
+							<li><a href="../frontDesign/single.html"> <img
+									src="../frontDesign/images/pic25.jpg" class="img-responsive"
+									alt="" />
+									<div class="tab_desc">
+										<p>There are many variations</p>
+										<h4>#25478921</h4>
+									</div>
+							</a></li>
+							<li><a href="../frontDesign/single.html"> <img
+									src="../frontDesign/images/pic26.jpg" class="img-responsive"
+									alt="" />
+									<div class="tab_desc">
+										<p>There are many variations</p>
+										<h4>#25478921</h4>
+									</div>
+							</a></li>
+							<li><a href="../frontDesign/single.html"> <img
+									src="../frontDesign/images/pic27.jpg" class="img-responsive"
+									alt="" />
+									<div class="tab_desc">
+										<p>There are many variations</p>
+										<h4>#25478921</h4>
+									</div>
+							</a></li>
+							<li><a href="../frontDesign/single.html"> <img
+									src="../frontDesign/images/pic28.jpg" class="img-responsive"
+									alt="" />
+									<div class="tab_desc">
+										<p>There are many variations</p>
+										<h4>#25478921</h4>
+									</div>
+							</a></li>
+							<li class="last"><a href="../frontDesign/single.html"> <img
+									src="../frontDesign/images/pic29.jpg" class="img-responsive"
+									alt="" />
+									<div class="tab_desc">
+										<p>There are many variations</p>
+										<h4>#25478921</h4>
+									</div>
+							</a></li>
+							<div class="clearfix"></div>
 						</ul>
-				     </div>	
-				     <div class="tab-1 resp-tab-content" aria-labelledby="tab_item-2">
+					</div>
+					<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-2">
 						<ul class="tab_img">
-						  <li><a href="../frontDesign/single.html">
-							 <img src="../frontDesign/images/pic40.jpg" class="img-responsive" alt=""/>
-						     <div class="tab_desc">
-								<p>There are many variations</p>
-								<h4>#25478921</h4>
-							 </div>
-						   </a></li>
-							<li><a href="../frontDesign/single.html">
-							 <img src="../frontDesign/images/pic2.jpg" class="img-responsive" alt=""/>
-						     <div class="tab_desc">
-								<p>There are many variations</p>
-								<h4>#25478921</h4>
-							 </div>
-						   </a></li>
-							<li><a href="../frontDesign/single.html">
-							 <img src="../frontDesign/images/pic3.jpg" class="img-responsive" alt=""/>
-						     <div class="tab_desc">
-								<p>There are many variations</p>
-								<h4>#25478921</h4>
-							 </div>
-						   </a></li>
-						    <li><a href="../frontDesign/single.html">
-							 <img src="../frontDesign/images/pic4.jpg" class="img-responsive" alt=""/>
-						     <div class="tab_desc">
-								<p>There are many variations</p>
-								<h4>#25478921</h4>
-							 </div>
-						   </a></li>
-						   <li><a href="../frontDesign/single.html">
-							 <img src="../frontDesign/images/pic5.jpg" class="img-responsive" alt=""/>
-						     <div class="tab_desc">
-								<p>There are many variations</p>
-								<h4>#25478921</h4>
-							 </div>
-						   </a></li>
-						   <li class="last"><a href="../frontDesign/single.html">
-							 <img src="../frontDesign/images/pic6.jpg" class="img-responsive" alt=""/>
-						     <div class="tab_desc">
-								<p>There are many variations</p>
-								<h4>#25478921</h4>
-							 </div>
-						   </a></li>
-						   <li><a href="../frontDesign/single.html">
-							 <img src="../frontDesign/images/pic6.jpg" class="img-responsive" alt=""/>
-						     <div class="tab_desc">
-								<p>There are many variations</p>
-								<h4>#25478921</h4>
-							 </div>
-						   </a></li>
-						   <li><a href="../frontDesign/single.html">
-							 <img src="../frontDesign/images/pic7.jpg" class="img-responsive" alt=""/>
-						     <div class="tab_desc">
-								<p>There are many variations</p>
-								<h4>#25478921</h4>
-							 </div>
-						   </a></li>
-						   <li><a href="../frontDesign/single.html">
-							 <img src="../frontDesign/images/pic8.jpg" class="img-responsive" alt=""/>
-						     <div class="tab_desc">
-								<p>There are many variations</p>
-								<h4>#25478921</h4>
-							 </div>
-						   </a></li>
-						   <li><a href="../frontDesign/single.html">
-							 <img src="../frontDesign/images/pic9.jpg" class="img-responsive" alt=""/>
-						     <div class="tab_desc">
-								<p>There are many variations</p>
-								<h4>#25478921</h4>
-							 </div>
-						   </a></li>
-						   <li><a href="../frontDesign/single.html">
-							 <img src="../frontDesign/images/pic10.jpg" class="img-responsive" alt=""/>
-						     <div class="tab_desc">
-								<p>There are many variations</p>
-								<h4>#25478921</h4>
-							 </div>
-						   </a></li>
-						   <li class="last"><a href="../frontDesign/single.html">
-							 <img src="../frontDesign/images/pic11.jpg" class="img-responsive" alt=""/>
-						     <div class="tab_desc">
-								<p>There are many variations</p>
-								<h4>#25478921</h4>
-							 </div>
-						   </a></li>
-						   <li><a href="../frontDesign/single.html">
-							 <img src="../frontDesign/images/pic12.jpg" class="img-responsive" alt=""/>
-						     <div class="tab_desc">
-								<p>There are many variations</p>
-								<h4>#25478921</h4>
-							 </div>
-						   </a></li>
-						   <li><a href="../frontDesign/single.html">
-							 <img src="../frontDesign/images/pic13.jpg" class="img-responsive" alt=""/>
-						     <div class="tab_desc">
-								<p>There are many variations</p>
-								<h4>#25478921</h4>
-							 </div>
-						   </a></li>
-						   <li><a href="../frontDesign/single.html">
-							 <img src="../frontDesign/images/pic14.jpg" class="img-responsive" alt=""/>
-						     <div class="tab_desc">
-								<p>There are many variations</p>
-								<h4>#25478921</h4>
-							 </div>
-						   </a></li>
-						   <li><a href="../frontDesign/single.html">
-							 <img src="../frontDesign/images/pic15.jpg" class="img-responsive" alt=""/>
-						     <div class="tab_desc">
-								<p>There are many variations</p>
-								<h4>#25478921</h4>
-							 </div>
-						   </a></li>
-						   <li><a href="../frontDesign/single.html">
-							 <img src="../frontDesign/images/pic16.jpg" class="img-responsive" alt=""/>
-						     <div class="tab_desc">
-								<p>There are many variations</p>
-								<h4>#25478921</h4>
-							 </div>
-						   </a></li>
-						   <li class="last"><a href="../frontDesign/single.html">
-							 <img src="../frontDesign/images/pic17.jpg" class="img-responsive" alt=""/>
-						     <div class="tab_desc">
-								<p>There are many variations</p>
-								<h4>#25478921</h4>
-							 </div>
-						   </a></li>
-						   <li><a href="../frontDesign/single.html">
-							 <img src="../frontDesign/images/pic18.jpg" class="img-responsive" alt=""/>
-						     <div class="tab_desc">
-								<p>There are many variations</p>
-								<h4>#25478921</h4>
-							 </div>
-						   </a></li>
-						   <li><a href="../frontDesign/single.html">
-							 <img src="../frontDesign/images/pic19.jpg" class="img-responsive" alt=""/>
-						     <div class="tab_desc">
-								<p>There are many variations</p>
-								<h4>#25478921</h4>
-							 </div>
-						   </a></li>
-						   <li><a href="../frontDesign/single.html">
-							 <img src="../frontDesign/images/pic41.jpg" class="img-responsive" alt=""/>
-						     <div class="tab_desc">
-								<p>There are many variations</p>
-								<h4>#25478921</h4>
-							 </div>
-						   </a></li>
-						   <li><a href="../frontDesign/single.html">
-							 <img src="../frontDesign/images/pic21.jpg" class="img-responsive" alt=""/>
-						     <div class="tab_desc">
-								<p>There are many variations</p>
-								<h4>#25478921</h4>
-							 </div>
-						   </a></li>
-						   <li><a href="../frontDesign/single.html">
-							 <img src="../frontDesign/images/pic22.jpg" class="img-responsive" alt=""/>
-						     <div class="tab_desc">
-								<p>There are many variations</p>
-								<h4>#25478921</h4>
-							 </div>
-						   </a></li>
-						   <li class="last"><a href="../frontDesign/single.html">
-							 <img src="../frontDesign/images/pic23.jpg" class="img-responsive" alt=""/>
-						     <div class="tab_desc">
-								<p>There are many variations</p>
-								<h4>#25478921</h4>
-							 </div>
-						   </a></li>
-						   <li><a href="../frontDesign/single.html">
-							 <img src="../frontDesign/images/pic24.jpg" class="img-responsive" alt=""/>
-						     <div class="tab_desc">
-								<p>There are many variations</p>
-								<h4>#25478921</h4>
-							 </div>
-						   </a></li>
-						   <li><a href="../frontDesign/single.html">
-							 <img src="../frontDesign/images/pic25.jpg" class="img-responsive" alt=""/>
-						     <div class="tab_desc">
-								<p>There are many variations</p>
-								<h4>#25478921</h4>
-							 </div>
-						   </a></li>
-						   <li><a href="../frontDesign/single.html">
-							 <img src="../frontDesign/images/pic26.jpg" class="img-responsive" alt=""/>
-						     <div class="tab_desc">
-								<p>There are many variations</p>
-								<h4>#25478921</h4>
-							 </div>
-						   </a></li>
-						   <li><a href="../frontDesign/single.html">
-							 <img src="../frontDesign/images/pic27.jpg" class="img-responsive" alt=""/>
-						     <div class="tab_desc">
-								<p>There are many variations</p>
-								<h4>#25478921</h4>
-							 </div>
-						   </a></li>
-						   <li><a href="../frontDesign/single.html">
-							 <img src="../frontDesign/images/pic28.jpg" class="img-responsive" alt=""/>
-						     <div class="tab_desc">
-								<p>There are many variations</p>
-								<h4>#25478921</h4>
-							 </div>
-						   </a></li>
-						   <li class="last"><a href="../frontDesign/single.html">
-							 <img src="../frontDesign/images/pic29.jpg" class="img-responsive" alt=""/>
-						     <div class="tab_desc">
-								<p>There are many variations</p>
-								<h4>#25478921</h4>
-							 </div>
-						   </a></li>
-						   <div class="clearfix"></div>
+							<li><a href="../frontDesign/single.html"> <img
+									src="../frontDesign/images/pic40.jpg" class="img-responsive"
+									alt="" />
+									<div class="tab_desc">
+										<p>There are many variations</p>
+										<h4>#25478921</h4>
+									</div>
+							</a></li>
+							<li><a href="../frontDesign/single.html"> <img
+									src="../frontDesign/images/pic2.jpg" class="img-responsive"
+									alt="" />
+									<div class="tab_desc">
+										<p>There are many variations</p>
+										<h4>#25478921</h4>
+									</div>
+							</a></li>
+							<li><a href="../frontDesign/single.html"> <img
+									src="../frontDesign/images/pic3.jpg" class="img-responsive"
+									alt="" />
+									<div class="tab_desc">
+										<p>There are many variations</p>
+										<h4>#25478921</h4>
+									</div>
+							</a></li>
+							<li><a href="../frontDesign/single.html"> <img
+									src="../frontDesign/images/pic4.jpg" class="img-responsive"
+									alt="" />
+									<div class="tab_desc">
+										<p>There are many variations</p>
+										<h4>#25478921</h4>
+									</div>
+							</a></li>
+							<li><a href="../frontDesign/single.html"> <img
+									src="../frontDesign/images/pic5.jpg" class="img-responsive"
+									alt="" />
+									<div class="tab_desc">
+										<p>There are many variations</p>
+										<h4>#25478921</h4>
+									</div>
+							</a></li>
+							<li class="last"><a href="../frontDesign/single.html"> <img
+									src="../frontDesign/images/pic6.jpg" class="img-responsive"
+									alt="" />
+									<div class="tab_desc">
+										<p>There are many variations</p>
+										<h4>#25478921</h4>
+									</div>
+							</a></li>
+							<li><a href="../frontDesign/single.html"> <img
+									src="../frontDesign/images/pic6.jpg" class="img-responsive"
+									alt="" />
+									<div class="tab_desc">
+										<p>There are many variations</p>
+										<h4>#25478921</h4>
+									</div>
+							</a></li>
+							<li><a href="../frontDesign/single.html"> <img
+									src="../frontDesign/images/pic7.jpg" class="img-responsive"
+									alt="" />
+									<div class="tab_desc">
+										<p>There are many variations</p>
+										<h4>#25478921</h4>
+									</div>
+							</a></li>
+							<li><a href="../frontDesign/single.html"> <img
+									src="../frontDesign/images/pic8.jpg" class="img-responsive"
+									alt="" />
+									<div class="tab_desc">
+										<p>There are many variations</p>
+										<h4>#25478921</h4>
+									</div>
+							</a></li>
+							<li><a href="../frontDesign/single.html"> <img
+									src="../frontDesign/images/pic9.jpg" class="img-responsive"
+									alt="" />
+									<div class="tab_desc">
+										<p>There are many variations</p>
+										<h4>#25478921</h4>
+									</div>
+							</a></li>
+							<li><a href="../frontDesign/single.html"> <img
+									src="../frontDesign/images/pic10.jpg" class="img-responsive"
+									alt="" />
+									<div class="tab_desc">
+										<p>There are many variations</p>
+										<h4>#25478921</h4>
+									</div>
+							</a></li>
+							<li class="last"><a href="../frontDesign/single.html"> <img
+									src="../frontDesign/images/pic11.jpg" class="img-responsive"
+									alt="" />
+									<div class="tab_desc">
+										<p>There are many variations</p>
+										<h4>#25478921</h4>
+									</div>
+							</a></li>
+							<li><a href="../frontDesign/single.html"> <img
+									src="../frontDesign/images/pic12.jpg" class="img-responsive"
+									alt="" />
+									<div class="tab_desc">
+										<p>There are many variations</p>
+										<h4>#25478921</h4>
+									</div>
+							</a></li>
+							<li><a href="../frontDesign/single.html"> <img
+									src="../frontDesign/images/pic13.jpg" class="img-responsive"
+									alt="" />
+									<div class="tab_desc">
+										<p>There are many variations</p>
+										<h4>#25478921</h4>
+									</div>
+							</a></li>
+							<li><a href="../frontDesign/single.html"> <img
+									src="../frontDesign/images/pic14.jpg" class="img-responsive"
+									alt="" />
+									<div class="tab_desc">
+										<p>There are many variations</p>
+										<h4>#25478921</h4>
+									</div>
+							</a></li>
+							<li><a href="../frontDesign/single.html"> <img
+									src="../frontDesign/images/pic15.jpg" class="img-responsive"
+									alt="" />
+									<div class="tab_desc">
+										<p>There are many variations</p>
+										<h4>#25478921</h4>
+									</div>
+							</a></li>
+							<li><a href="../frontDesign/single.html"> <img
+									src="../frontDesign/images/pic16.jpg" class="img-responsive"
+									alt="" />
+									<div class="tab_desc">
+										<p>There are many variations</p>
+										<h4>#25478921</h4>
+									</div>
+							</a></li>
+							<li class="last"><a href="../frontDesign/single.html"> <img
+									src="../frontDesign/images/pic17.jpg" class="img-responsive"
+									alt="" />
+									<div class="tab_desc">
+										<p>There are many variations</p>
+										<h4>#25478921</h4>
+									</div>
+							</a></li>
+							<li><a href="../frontDesign/single.html"> <img
+									src="../frontDesign/images/pic18.jpg" class="img-responsive"
+									alt="" />
+									<div class="tab_desc">
+										<p>There are many variations</p>
+										<h4>#25478921</h4>
+									</div>
+							</a></li>
+							<li><a href="../frontDesign/single.html"> <img
+									src="../frontDesign/images/pic19.jpg" class="img-responsive"
+									alt="" />
+									<div class="tab_desc">
+										<p>There are many variations</p>
+										<h4>#25478921</h4>
+									</div>
+							</a></li>
+							<li><a href="../frontDesign/single.html"> <img
+									src="../frontDesign/images/pic41.jpg" class="img-responsive"
+									alt="" />
+									<div class="tab_desc">
+										<p>There are many variations</p>
+										<h4>#25478921</h4>
+									</div>
+							</a></li>
+							<li><a href="../frontDesign/single.html"> <img
+									src="../frontDesign/images/pic21.jpg" class="img-responsive"
+									alt="" />
+									<div class="tab_desc">
+										<p>There are many variations</p>
+										<h4>#25478921</h4>
+									</div>
+							</a></li>
+							<li><a href="../frontDesign/single.html"> <img
+									src="../frontDesign/images/pic22.jpg" class="img-responsive"
+									alt="" />
+									<div class="tab_desc">
+										<p>There are many variations</p>
+										<h4>#25478921</h4>
+									</div>
+							</a></li>
+							<li class="last"><a href="../frontDesign/single.html"> <img
+									src="../frontDesign/images/pic23.jpg" class="img-responsive"
+									alt="" />
+									<div class="tab_desc">
+										<p>There are many variations</p>
+										<h4>#25478921</h4>
+									</div>
+							</a></li>
+							<li><a href="../frontDesign/single.html"> <img
+									src="../frontDesign/images/pic24.jpg" class="img-responsive"
+									alt="" />
+									<div class="tab_desc">
+										<p>There are many variations</p>
+										<h4>#25478921</h4>
+									</div>
+							</a></li>
+							<li><a href="../frontDesign/single.html"> <img
+									src="../frontDesign/images/pic25.jpg" class="img-responsive"
+									alt="" />
+									<div class="tab_desc">
+										<p>There are many variations</p>
+										<h4>#25478921</h4>
+									</div>
+							</a></li>
+							<li><a href="../frontDesign/single.html"> <img
+									src="../frontDesign/images/pic26.jpg" class="img-responsive"
+									alt="" />
+									<div class="tab_desc">
+										<p>There are many variations</p>
+										<h4>#25478921</h4>
+									</div>
+							</a></li>
+							<li><a href="../frontDesign/single.html"> <img
+									src="../frontDesign/images/pic27.jpg" class="img-responsive"
+									alt="" />
+									<div class="tab_desc">
+										<p>There are many variations</p>
+										<h4>#25478921</h4>
+									</div>
+							</a></li>
+							<li><a href="../frontDesign/single.html"> <img
+									src="../frontDesign/images/pic28.jpg" class="img-responsive"
+									alt="" />
+									<div class="tab_desc">
+										<p>There are many variations</p>
+										<h4>#25478921</h4>
+									</div>
+							</a></li>
+							<li class="last"><a href="../frontDesign/single.html"> <img
+									src="../frontDesign/images/pic29.jpg" class="img-responsive"
+									alt="" />
+									<div class="tab_desc">
+										<p>There are many variations</p>
+										<h4>#25478921</h4>
+									</div>
+							</a></li>
+							<div class="clearfix"></div>
 						</ul>
-				     </div>	
-				     <div class="tab-1 resp-tab-content" aria-labelledby="tab_item-3">
+					</div>
+					<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-3">
 						<ul class="tab_img">
-						  <li><a href="../frontDesign/single.html">
-							 <img src="../frontDesign/images/pic1.jpg" class="img-responsive" alt=""/>
-						     <div class="tab_desc">
-								<p>There are many variations</p>
-								<h4>#25478921</h4>
-							 </div>
-						   </a></li>
-							<li><a href="../frontDesign/single.html">
-							 <img src="../frontDesign/images/pic2.jpg" class="img-responsive" alt=""/>
-						     <div class="tab_desc">
-								<p>There are many variations</p>
-								<h4>#25478921</h4>
-							 </div>
-						   </a></li>
-							<li><a href="../frontDesign/single.html">
-							 <img src="../frontDesign/images/pic42.jpg" class="img-responsive" alt=""/>
-						     <div class="tab_desc">
-								<p>There are many variations</p>
-								<h4>#25478921</h4>
-							 </div>
-						   </a></li>
-						    <li><a href="../frontDesign/single.html">
-							 <img src="../frontDesign/images/pic4.jpg" class="img-responsive" alt=""/>
-						     <div class="tab_desc">
-								<p>There are many variations</p>
-								<h4>#25478921</h4>
-							 </div>
-						   </a></li>
-						   <li><a href="../frontDesign/single.html">
-							 <img src="../frontDesign/images/pic5.jpg" class="img-responsive" alt=""/>
-						     <div class="tab_desc">
-								<p>There are many variations</p>
-								<h4>#25478921</h4>
-							 </div>
-						   </a></li>
-						   <li class="last"><a href="../frontDesign/single.html">
-							 <img src="../frontDesign/images/pic6.jpg" class="img-responsive" alt=""/>
-						     <div class="tab_desc">
-								<p>There are many variations</p>
-								<h4>#25478921</h4>
-							 </div>
-						   </a></li>
-						   <li><a href="../frontDesign/single.html">
-							 <img src="../frontDesign/images/pic6.jpg" class="img-responsive" alt=""/>
-						     <div class="tab_desc">
-								<p>There are many variations</p>
-								<h4>#25478921</h4>
-							 </div>
-						   </a></li>
-						   <li><a href="../frontDesign/single.html">
-							 <img src="../frontDesign/images/pic7.jpg" class="img-responsive" alt=""/>
-						     <div class="tab_desc">
-								<p>There are many variations</p>
-								<h4>#25478921</h4>
-							 </div>
-						   </a></li>
-						   <li><a href="../frontDesign/single.html">
-							 <img src="../frontDesign/images/pic8.jpg" class="img-responsive" alt=""/>
-						     <div class="tab_desc">
-								<p>There are many variations</p>
-								<h4>#25478921</h4>
-							 </div>
-						   </a></li>
-						   <li><a href="../frontDesign/single.html">
-							 <img src="../frontDesign/images/pic9.jpg" class="img-responsive" alt=""/>
-						     <div class="tab_desc">
-								<p>There are many variations</p>
-								<h4>#25478921</h4>
-							 </div>
-						   </a></li>
-						   <li><a href="../frontDesign/single.html">
-							 <img src="../frontDesign/images/pic10.jpg" class="img-responsive" alt=""/>
-						     <div class="tab_desc">
-								<p>There are many variations</p>
-								<h4>#25478921</h4>
-							 </div>
-						   </a></li>
-						   <li class="last"><a href="../frontDesign/single.html">
-							 <img src="../frontDesign/images/pic43.jpg" class="img-responsive" alt=""/>
-						     <div class="tab_desc">
-								<p>There are many variations</p>
-								<h4>#25478921</h4>
-							 </div>
-						   </a></li>
-						   <li><a href="../frontDesign/single.html">
-							 <img src="../frontDesign/images/pic12.jpg" class="img-responsive" alt=""/>
-						     <div class="tab_desc">
-								<p>There are many variations</p>
-								<h4>#25478921</h4>
-							 </div>
-						   </a></li>
-						   <li><a href="../frontDesign/single.html">
-							 <img src="../frontDesign/images/pic13.jpg" class="img-responsive" alt=""/>
-						     <div class="tab_desc">
-								<p>There are many variations</p>
-								<h4>#25478921</h4>
-							 </div>
-						  </a> </li>
-						   <li><a href="../frontDesign/single.html">
-							 <img src="../frontDesign/images/pic14.jpg" class="img-responsive" alt=""/>
-						     <div class="tab_desc">
-								<p>There are many variations</p>
-								<h4>#25478921</h4>
-							 </div>
-						   </a></li>
-						   <li><a href="../frontDesign/single.html">
-							 <img src="../frontDesign/images/pic15.jpg" class="img-responsive" alt=""/>
-						     <div class="tab_desc">
-								<p>There are many variations</p>
-								<h4>#25478921</h4>
-							 </div>
-						   </a></li>
-						   <li><a href="../frontDesign/single.html">
-							 <img src="../frontDesign/images/pic16.jpg" class="img-responsive" alt=""/>
-						     <div class="tab_desc">
-								<p>There are many variations</p>
-								<h4>#25478921</h4>
-							 </div>
-						   </a></li>
-						   <li class="last"><a href="../frontDesign/single.html">
-							 <img src="../frontDesign/images/pic17.jpg" class="img-responsive" alt=""/>
-						     <div class="tab_desc">
-								<p>There are many variations</p>
-								<h4>#25478921</h4>
-							 </div>
-						   </a></li>
-						   <li><a href="../frontDesign/single.html">
-							 <img src="../frontDesign/images/pic18.jpg" class="img-responsive" alt=""/>
-						     <div class="tab_desc">
-								<p>There are many variations</p>
-								<h4>#25478921</h4>
-							 </div>
-						   </a></li>
-						   <li><a href="../frontDesign/single.html">
-							 <img src="../frontDesign/images/pic19.jpg" class="img-responsive" alt=""/>
-						     <div class="tab_desc">
-								<p>There are many variations</p>
-								<h4>#25478921</h4>
-							 </div>
-						   </a></li>
-						   <li><a href="../frontDesign/single.html">
-							 <img src="../frontDesign/images/pic20.jpg" class="img-responsive" alt=""/>
-						     <div class="tab_desc">
-								<p>There are many variations</p>
-								<h4>#25478921</h4>
-							 </div>
-						   </a></li>
-						   <li><a href="../frontDesign/single.html">
-							 <img src="../frontDesign/images/pic21.jpg" class="img-responsive" alt=""/>
-						     <div class="tab_desc">
-								<p>There are many variations</p>
-								<h4>#25478921</h4>
-							 </div>
-						   </a></li>
-						   <li><a href="../frontDesign/single.html">
-							 <img src="../frontDesign/images/pic22.jpg" class="img-responsive" alt=""/>
-						     <div class="tab_desc">
-								<p>There are many variations</p>
-								<h4>#25478921</h4>
-							 </div>
-						   </a></li>
-						   <li class="last"><a href="../frontDesign/single.html">
-							 <img src="../frontDesign/images/pic23.jpg" class="img-responsive" alt=""/>
-						     <div class="tab_desc">
-								<p>There are many variations</p>
-								<h4>#25478921</h4>
-							 </div>
-						   </a></li>
-						   <li><a href="../frontDesign/single.html">
-							 <img src="../frontDesign/images/pic24.jpg" class="img-responsive" alt=""/>
-						     <div class="tab_desc">
-								<p>There are many variations</p>
-								<h4>#25478921</h4>
-							 </div>
-						   </a></li>
-						   <li><a href="../frontDesign/single.html">
-							 <img src="../frontDesign/images/pic25.jpg" class="img-responsive" alt=""/>
-						     <div class="tab_desc">
-								<p>There are many variations</p>
-								<h4>#25478921</h4>
-							 </div>
-						   </a></li>
-						   <li><a href="../frontDesign/single.html">
-							 <img src="../frontDesign/images/pic26.jpg" class="img-responsive" alt=""/>
-						     <div class="tab_desc">
-								<p>There are many variations</p>
-								<h4>#25478921</h4>
-							 </div>
-						   </a></li>
-						   <li><a href="../frontDesign/single.html">
-							 <img src="../frontDesign/images/pic27.jpg" class="img-responsive" alt=""/>
-						     <div class="tab_desc">
-								<p>There are many variations</p>
-								<h4>#25478921</h4>
-							 </div>
-						   </a></li>
-						   <li><a href="../frontDesign/single.html">
-							 <img src="../frontDesign/images/pic28.jpg" class="img-responsive" alt=""/>
-						     <div class="tab_desc">
-								<p>There are many variations</p>
-								<h4>#25478921</h4>
-							 </div>
-						   </a></li>
-						   <li class="last"><a href="../frontDesign/single.html">
-							 <img src="../frontDesign/images/pic29.jpg" class="img-responsive" alt=""/>
-						     <div class="tab_desc">
-								<p>There are many variations</p>
-								<h4>#25478921</h4>
-							 </div>
-						   </a></li>
-						   <div class="clearfix"></div>
+							<li><a href="../frontDesign/single.html"> <img
+									src="../frontDesign/images/pic1.jpg" class="img-responsive"
+									alt="" />
+									<div class="tab_desc">
+										<p>There are many variations</p>
+										<h4>#25478921</h4>
+									</div>
+							</a></li>
+							<li><a href="../frontDesign/single.html"> <img
+									src="../frontDesign/images/pic2.jpg" class="img-responsive"
+									alt="" />
+									<div class="tab_desc">
+										<p>There are many variations</p>
+										<h4>#25478921</h4>
+									</div>
+							</a></li>
+							<li><a href="../frontDesign/single.html"> <img
+									src="../frontDesign/images/pic42.jpg" class="img-responsive"
+									alt="" />
+									<div class="tab_desc">
+										<p>There are many variations</p>
+										<h4>#25478921</h4>
+									</div>
+							</a></li>
+							<li><a href="../frontDesign/single.html"> <img
+									src="../frontDesign/images/pic4.jpg" class="img-responsive"
+									alt="" />
+									<div class="tab_desc">
+										<p>There are many variations</p>
+										<h4>#25478921</h4>
+									</div>
+							</a></li>
+							<li><a href="../frontDesign/single.html"> <img
+									src="../frontDesign/images/pic5.jpg" class="img-responsive"
+									alt="" />
+									<div class="tab_desc">
+										<p>There are many variations</p>
+										<h4>#25478921</h4>
+									</div>
+							</a></li>
+							<li class="last"><a href="../frontDesign/single.html"> <img
+									src="../frontDesign/images/pic6.jpg" class="img-responsive"
+									alt="" />
+									<div class="tab_desc">
+										<p>There are many variations</p>
+										<h4>#25478921</h4>
+									</div>
+							</a></li>
+							<li><a href="../frontDesign/single.html"> <img
+									src="../frontDesign/images/pic6.jpg" class="img-responsive"
+									alt="" />
+									<div class="tab_desc">
+										<p>There are many variations</p>
+										<h4>#25478921</h4>
+									</div>
+							</a></li>
+							<li><a href="../frontDesign/single.html"> <img
+									src="../frontDesign/images/pic7.jpg" class="img-responsive"
+									alt="" />
+									<div class="tab_desc">
+										<p>There are many variations</p>
+										<h4>#25478921</h4>
+									</div>
+							</a></li>
+							<li><a href="../frontDesign/single.html"> <img
+									src="../frontDesign/images/pic8.jpg" class="img-responsive"
+									alt="" />
+									<div class="tab_desc">
+										<p>There are many variations</p>
+										<h4>#25478921</h4>
+									</div>
+							</a></li>
+							<li><a href="../frontDesign/single.html"> <img
+									src="../frontDesign/images/pic9.jpg" class="img-responsive"
+									alt="" />
+									<div class="tab_desc">
+										<p>There are many variations</p>
+										<h4>#25478921</h4>
+									</div>
+							</a></li>
+							<li><a href="../frontDesign/single.html"> <img
+									src="../frontDesign/images/pic10.jpg" class="img-responsive"
+									alt="" />
+									<div class="tab_desc">
+										<p>There are many variations</p>
+										<h4>#25478921</h4>
+									</div>
+							</a></li>
+							<li class="last"><a href="../frontDesign/single.html"> <img
+									src="../frontDesign/images/pic43.jpg" class="img-responsive"
+									alt="" />
+									<div class="tab_desc">
+										<p>There are many variations</p>
+										<h4>#25478921</h4>
+									</div>
+							</a></li>
+							<li><a href="../frontDesign/single.html"> <img
+									src="../frontDesign/images/pic12.jpg" class="img-responsive"
+									alt="" />
+									<div class="tab_desc">
+										<p>There are many variations</p>
+										<h4>#25478921</h4>
+									</div>
+							</a></li>
+							<li><a href="../frontDesign/single.html"> <img
+									src="../frontDesign/images/pic13.jpg" class="img-responsive"
+									alt="" />
+									<div class="tab_desc">
+										<p>There are many variations</p>
+										<h4>#25478921</h4>
+									</div>
+							</a></li>
+							<li><a href="../frontDesign/single.html"> <img
+									src="../frontDesign/images/pic14.jpg" class="img-responsive"
+									alt="" />
+									<div class="tab_desc">
+										<p>There are many variations</p>
+										<h4>#25478921</h4>
+									</div>
+							</a></li>
+							<li><a href="../frontDesign/single.html"> <img
+									src="../frontDesign/images/pic15.jpg" class="img-responsive"
+									alt="" />
+									<div class="tab_desc">
+										<p>There are many variations</p>
+										<h4>#25478921</h4>
+									</div>
+							</a></li>
+							<li><a href="../frontDesign/single.html"> <img
+									src="../frontDesign/images/pic16.jpg" class="img-responsive"
+									alt="" />
+									<div class="tab_desc">
+										<p>There are many variations</p>
+										<h4>#25478921</h4>
+									</div>
+							</a></li>
+							<li class="last"><a href="../frontDesign/single.html"> <img
+									src="../frontDesign/images/pic17.jpg" class="img-responsive"
+									alt="" />
+									<div class="tab_desc">
+										<p>There are many variations</p>
+										<h4>#25478921</h4>
+									</div>
+							</a></li>
+							<li><a href="../frontDesign/single.html"> <img
+									src="../frontDesign/images/pic18.jpg" class="img-responsive"
+									alt="" />
+									<div class="tab_desc">
+										<p>There are many variations</p>
+										<h4>#25478921</h4>
+									</div>
+							</a></li>
+							<li><a href="../frontDesign/single.html"> <img
+									src="../frontDesign/images/pic19.jpg" class="img-responsive"
+									alt="" />
+									<div class="tab_desc">
+										<p>There are many variations</p>
+										<h4>#25478921</h4>
+									</div>
+							</a></li>
+							<li><a href="../frontDesign/single.html"> <img
+									src="../frontDesign/images/pic20.jpg" class="img-responsive"
+									alt="" />
+									<div class="tab_desc">
+										<p>There are many variations</p>
+										<h4>#25478921</h4>
+									</div>
+							</a></li>
+							<li><a href="../frontDesign/single.html"> <img
+									src="../frontDesign/images/pic21.jpg" class="img-responsive"
+									alt="" />
+									<div class="tab_desc">
+										<p>There are many variations</p>
+										<h4>#25478921</h4>
+									</div>
+							</a></li>
+							<li><a href="../frontDesign/single.html"> <img
+									src="../frontDesign/images/pic22.jpg" class="img-responsive"
+									alt="" />
+									<div class="tab_desc">
+										<p>There are many variations</p>
+										<h4>#25478921</h4>
+									</div>
+							</a></li>
+							<li class="last"><a href="../frontDesign/single.html"> <img
+									src="../frontDesign/images/pic23.jpg" class="img-responsive"
+									alt="" />
+									<div class="tab_desc">
+										<p>There are many variations</p>
+										<h4>#25478921</h4>
+									</div>
+							</a></li>
+							<li><a href="../frontDesign/single.html"> <img
+									src="../frontDesign/images/pic24.jpg" class="img-responsive"
+									alt="" />
+									<div class="tab_desc">
+										<p>There are many variations</p>
+										<h4>#25478921</h4>
+									</div>
+							</a></li>
+							<li><a href="../frontDesign/single.html"> <img
+									src="../frontDesign/images/pic25.jpg" class="img-responsive"
+									alt="" />
+									<div class="tab_desc">
+										<p>There are many variations</p>
+										<h4>#25478921</h4>
+									</div>
+							</a></li>
+							<li><a href="../frontDesign/single.html"> <img
+									src="../frontDesign/images/pic26.jpg" class="img-responsive"
+									alt="" />
+									<div class="tab_desc">
+										<p>There are many variations</p>
+										<h4>#25478921</h4>
+									</div>
+							</a></li>
+							<li><a href="../frontDesign/single.html"> <img
+									src="../frontDesign/images/pic27.jpg" class="img-responsive"
+									alt="" />
+									<div class="tab_desc">
+										<p>There are many variations</p>
+										<h4>#25478921</h4>
+									</div>
+							</a></li>
+							<li><a href="../frontDesign/single.html"> <img
+									src="../frontDesign/images/pic28.jpg" class="img-responsive"
+									alt="" />
+									<div class="tab_desc">
+										<p>There are many variations</p>
+										<h4>#25478921</h4>
+									</div>
+							</a></li>
+							<li class="last"><a href="../frontDesign/single.html"> <img
+									src="../frontDesign/images/pic29.jpg" class="img-responsive"
+									alt="" />
+									<div class="tab_desc">
+										<p>There are many variations</p>
+										<h4>#25478921</h4>
+									</div>
+							</a></li>
+							<div class="clearfix"></div>
 						</ul>
-				   </div>		        					 	        					 
-			  </div>	
-           </div>
-           <ul class="pagination">
-	        <li>
-	          <a href="../frontDesign/#" aria-label="Previous">
-	            <span aria-hidden="true">Â«</span>
-	          </a>
-	        </li>
-	        <li><a href="../frontDesign/#">1</a></li>
-	        <li><a href="../frontDesign/#">2</a></li>
-	        <li><a href="../frontDesign/#">3</a></li>
-	        <li><a href="../frontDesign/#">4</a></li>
-	        <li><a href="../frontDesign/#">5</a></li>
-	        <li>
-	          <a href="../frontDesign/#" aria-label="Next">
-	            <span aria-hidden="true">Â»</span>
-	          </a>
-	        </li>
-         </ul>
-       </div>
-       <div class="clearfix"> </div>
-    </div>
-	<div class="grid_2">
-		<div class="container"> 
-			<div class="col-md-3 col_2">
-				<h3>Stock Photo<br>Categories</h3>
+					</div>
+				</div>
 			</div>
-			<div class="col-md-9 col_5">
-				<div class="col_1_of_5 span_1_of_5">
-					<ul class="list1">
-					    <li><a href="../frontDesign/stock.html">Abstract</a></li>
-			            <li><a href="../frontDesign/stock.html">Animals/Wildlife</a></li>
-			            <li><a href="../frontDesign/stock.html">The Arts</a></li>
-			            <li><a href="../frontDesign/stock.html">Backgrounds/Textures</a></li>
-			            <li><a href="../frontDesign/stock.html">Beauty/Fashion</a></li>
-			            <li><a href="../frontDesign/stock.html">Buildings/Landmarks</a></li>
-		            </ul>
-				</div>
-				<div class="col_1_of_5 span_1_of_5">
-					<ul class="list1">
-					    <li><a href="../frontDesign/stock.html">Business/Finance</a></li>
-			            <li><a href="../frontDesign/stock.html">Celebrities</a></li>
-			            <li><a href="../frontDesign/stock.html">Editorial</a></li>
-			            <li><a href="../frontDesign/stock.html">Education</a></li>
-			            <li><a href="../frontDesign/stock.html">Food and Drink</a></li>
-			            <li><a href="../frontDesign/stock.html">Healthcare/Medical</a></li>
-		            </ul>
-				</div>
-				<div class="col_1_of_5 span_1_of_5">
-					<ul class="list1">
-					    <li><a href="../frontDesign/stock.html">Holidays</a></li>
-			            <li><a href="../frontDesign/stock.html">Illustrations/Clip-Art</a></li>
-			            <li><a href="../frontDesign/stock.html">Industrial</a></li>
-			            <li><a href="../frontDesign/stock.html">Interiors</a></li>
-			            <li><a href="../frontDesign/stock.html">Miscellaneous</a></li>
-			            <li><a href="../frontDesign/stock.html">Model Released Only</a></li>
-		            </ul>
-				</div>
-				<div class="col_1_of_5 span_1_of_5">
-					<ul class="list1">
-					    <li><a href="../frontDesign/stock.html">Nature</a></li>
-			            <li><a href="../frontDesign/stock.html">Objects</a></li>
-			            <li><a href="../frontDesign/stock.html">Parks/Outdoor</a></li>
-			            <li><a href="../frontDesign/stock.html">People</a></li>
-			            <li><a href="../frontDesign/stock.html">Religion</a></li>
-			            <li><a href="../frontDesign/stock.html">Science</a></li>
-		            </ul>
-				</div>
-				<div class="clearfix"></div>
+			<div align="center">
+				<ul class="pagination">
+					<li><a href="../frontDesign/#" aria-label="Previous"> <span
+							aria-hidden="true">上一页</span>
+					</a></li>
+					<li><a href="../frontDesign/#">1</a></li>
+					<li><a href="../frontDesign/#">2</a></li>
+					<li><a href="../frontDesign/#">3</a></li>
+					<li><a href="../frontDesign/#">4</a></li>
+					<li><a href="../frontDesign/#">5</a></li>
+					<li><a href="../frontDesign/#" aria-label="Next"> <span
+							aria-hidden="true">下一页</span>
+					</a></li>
+				</ul>
 			</div>
-			<div class="clearfix"> </div>
+		</div>
+		<div class="clearfix"></div>
+	</div>
+
+	<div class="grid_3">
+		<div class="container">
+			<ul id="footer-links">
+				<li><a href="../frontDesign/#">Terms of Use</a></li>
+				<li><a href="../frontDesign/#">Royalty Free License</a></li>
+				<li><a href="../frontDesign/#">Extended License</a></li>
+				<li><a href="../frontDesign/#">Privacy</a></li>
+				<li><a href="../frontDesign/support.html">Support</a></li>
+				<li><a href="../frontDesign/about.html">About Us</a></li>
+				<li><a href="../frontDesign/faq.html">FAQ</a></li>
+				<li><a href="../frontDesign/#">Categories</a></li>
+			</ul>
+			<p>
+				Copyright &copy; 2015.Company name All rights reserved.More
+				Templates <a href="../frontDesign/http://www.cssmoban.com/"
+					target="_blank" title="æ¨¡æ¿ä¹å®¶">æ¨¡æ¿ä¹å®¶</a> - Collect
+				from <a href="../frontDesign/http://www.cssmoban.com/"
+					title="ç½é¡µæ¨¡æ¿" target="_blank">ç½é¡µæ¨¡æ¿</a>
+			</p>
 		</div>
 	</div>
-	<div class="grid_3">
-	  <div class="container">
-	  	 <ul id="footer-links">
-			<li><a href="../frontDesign/#">Terms of Use</a></li>
-			<li><a href="../frontDesign/#">Royalty Free License</a></li>
-			<li><a href="../frontDesign/#">Extended License</a></li>
-			<li><a href="../frontDesign/#">Privacy</a></li>
-			<li><a href="../frontDesign/support.html">Support</a></li>
-			<li><a href="../frontDesign/about.html">About Us</a></li>
-			<li><a href="../frontDesign/faq.html">FAQ</a></li>
-			<li><a href="../frontDesign/#">Categories</a></li>
-         </ul>
-         <p>Copyright &copy; 2015.Company name All rights reserved.More Templates <a href="../frontDesign/http://www.cssmoban.com/" target="_blank" title="æ¨¡æ¿ä¹å®¶">æ¨¡æ¿ä¹å®¶</a> - Collect from <a href="../frontDesign/http://www.cssmoban.com/" title="ç½é¡µæ¨¡æ¿" target="_blank">ç½é¡µæ¨¡æ¿</a></p>
-	  </div>
-	</div>
 </body>
-</html>		
+</html>

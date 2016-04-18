@@ -111,4 +111,11 @@
     from t_admin
     where email = #{email,jdbcType=VARCHAR}
   </select>
+  
+    <select id="listAll" resultMap="BaseResultMap" >
+    select 
+    <include refid="Base_Column_List" />
+    from t_admin
+  </select>
+  
 </mapper>

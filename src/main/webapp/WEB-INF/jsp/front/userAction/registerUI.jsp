@@ -83,20 +83,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		   </div>
 	</div>
 	
-	<div class="grid_3">
-	  <div class="container">
-	  	 <ul id="footer-links">
-			<li><a href="#">Terms of Use</a></li>
-			<li><a href="#">Royalty Free License</a></li>
-			<li><a href="#">Extended License</a></li>
-			<li><a href="#">Privacy</a></li>
-			<li><a href="support.html">Support</a></li>
-			<li><a href="about.html">About Us</a></li>
-			<li><a href="faq.html">FAQ</a></li>
-			<li><a href="#">Categories</a></li>
-         </ul>
-         <p>Copyright &copy; 2015.Company name All rights reserved.More Templates <a href="http://www.cssmoban.com/" target="_blank" title="模板之家">模板之家</a> - Collect from <a href="http://www.cssmoban.com/" title="网页模板" target="_blank">网页模板</a></p>
-	  </div>
-	</div>
+	<jsp:include page="/WEB-INF/jsp/front/foot.jsp"></jsp:include>
 </body>
 </html>		

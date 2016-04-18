@@ -1,5 +1,7 @@
 package com.tajok.web.backend.service.impl;
 
+import java.util.List;
+
 import javax.annotation.Resource;
 
 import org.springframework.stereotype.Service;
@@ -28,6 +30,12 @@ public class AdminServiceImpl implements IAdminService {
 	public Admin getModel(String email) {
 		Admin admin = adminDao.getByEmail(email);
 		return admin;
+	}
+
+	@Override
+	public List listAll() {
+		List adminList = adminDao.listAll();
+		return adminList;
 	}
 
 	

@@ -11,17 +11,17 @@
 <script type="application/x-javascript">
 	 addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } 
 </script>
-<link href="../frontDesign/css/bootstrap.css" rel='stylesheet'
+<link href="${pageContext.request.contextPath}/frontDesign/css/bootstrap.css" rel='stylesheet'
 	type='text/css' />
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <!-- Custom Theme files -->
-<link href="../frontDesign/css/style.css" rel='stylesheet' type='text/css' />
+<link href="${pageContext.request.contextPath}/frontDesign/css/style.css" rel='stylesheet' type='text/css' />
 <!-- Custom Theme files -->
 <!--webfont-->
 <link href='http://fonts.useso.com/css?family=Quicksand:300,400,700' rel='stylesheet' type='text/css'>
 <link href='http://fonts.useso.com/css?family=Open+Sans:300,400,600,700,800' rel='stylesheet' type='text/css'>
-<script type="text/javascript" src="../frontDesign/js/jquery-1.11.1.min.js"></script>
-<script src="../frontDesign/js/menu_jquery.js"></script>
+<script type="text/javascript" src="${pageContext.request.contextPath}/frontDesign/js/jquery-1.11.1.min.js"></script>
+<script src="${pageContext.request.contextPath}/frontDesign/js/menu_jquery.js"></script>
 <!-- end -->
 
 </head>
@@ -31,13 +31,13 @@
 		<div class="container">
 			<div class="logo">
 				<h1>
-					<a href="index.html">Java Hub</a>
+					<a href="../user/guest.do">Java Hub</a>
 				</h1>
 			</div>
 			<div class="top_right">
 				<ul>
-					<li><a href="../user/info.do">个人信息</a></li>|
-					<li><a href="../user/logout.do">退出登录</a></li>
+					<li><a href="${pageContext.request.contextPath}/user/info.do">个人信息</a></li>|
+					<li><a href="${pageContext.request.contextPath}/user/logout.do">退出登录</a></li>
 				</ul>
 			</div>
 			<div class="clearfix"></div>
@@ -56,7 +56,7 @@
 				 <div id="loginContainer">
 				 <a href="#" id="loginButton"><span>登录</span></a>
 					  <div id="loginBox">                
-						  <form id="loginForm" action="../user/login.do" method="post">
+						  <form id="loginForm" action="${pageContext.request.contextPath}/user/login.do" method="post">
 			                <fieldset id="body">
 			                	<fieldset>
 			                          <label for="email">邮箱</label>
@@ -67,7 +67,7 @@
 			                            <input type="password" name="password" id="password">
 			                     </fieldset>
 			                    <input type="submit" id="login" value="登录">
-			                	<label for="checkbox"><input type="checkbox" id="checkbox"> <i>记住我</i></label>
+			                	<!-- <label for="checkbox"><input type="checkbox" id="checkbox"> <i>记住我</i></label> -->
 			                	 
 			            	</fieldset>
 			                 <span><a href="#">忘记密码?</a></span>

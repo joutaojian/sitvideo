@@ -1,5 +1,7 @@
 package com.tajok.web.backend.dao;
 
+import java.util.List;
+
 import com.tajok.web.backend.model.Admin;
 
 public interface AdminMapper {
@@ -17,4 +19,6 @@ public interface AdminMapper {
     
     //手动编写
     Admin getByEmail(String email);
+
+	List listAll();
 }

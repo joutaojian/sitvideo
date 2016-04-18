@@ -1,5 +1,8 @@
 package com.tajok.web.frontkit.controller;
 
+import java.util.Collections;
+import java.util.List;
+
 import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
@@ -12,6 +15,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 import com.tajok.web.backend.model.Admin;
 import com.tajok.web.frontkit.model.User;
+import com.tajok.web.frontkit.service.IMovService;
 import com.tajok.web.frontkit.service.IUserService;
 
 @Controller
@@ -20,6 +24,8 @@ public class UserController {
 
 	@Resource
 	private IUserService userService;//将本地的userService属性注入，等同且替代了setter
+	@Resource
+	private IMovService movService;//将本地的userService属性注入，等同且替代了setter
 	
 	/**
 	 * 访客首页
@@ -117,7 +123,13 @@ public class UserController {
 	 * @return
 	 */
 	@RequestMapping(value = "/info")
-	public String info(HttpServletRequest request) {
+	public String info(HttpSession session,HttpServletRequest request) {
+		
+		session = request.getSession();
+		User user = (User) session.getAttribute("user"); 
+		List movList = movService.listMov(user.getId());
+		Collections.reverse(movList);
+		request.setAttribute("movList", movList);
 		
 		return "/WEB-INF/jsp/front/userAction/info.jsp";
 	}

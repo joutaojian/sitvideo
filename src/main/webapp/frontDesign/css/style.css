@@ -531,7 +531,7 @@ ul.tab_img{
 ul.tab_img li {
 	float: left;
 	width: 15%;
-	margin: 0 2% 2% 0;
+	margin: 2% 2.5% 2% 2.5%;
 }
 ul.tab_img li a:hover{
 	text-decoration:none;

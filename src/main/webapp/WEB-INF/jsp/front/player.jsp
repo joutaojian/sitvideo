@@ -15,12 +15,12 @@
   <!--酷播迷你 CuPlayerMiniV4.0 代码开始-->
   <script type="text/javascript" src="${pageContext.request.contextPath}/frontDesign/CuPlayer/images/swfobject.js"></script>
   <div id="CuPlayer" > 
-  <strong>提示：您的Flash Player版本过低</a></strong> 
+  <strong>提示：您的Flash Player版本过低${movUrl}</a></strong> 
   </div>
   
 <script type=text/javascript>
-//酷播迷你V4：官方连播代码示例20140611//
-var CuPlayerList ="${pageContext.request.contextPath}/frontDesign/CuPlayer/test.mp4";
+//酷播迷你V4：官方连播代码示例20140611//${pageContext.request.contextPath}/frontDesign/CuPlayer/test.mp4
+var CuPlayerList ="${pageContext.request.contextPath}/${movUrl}";
 var sp =CuPlayerList.split("|");
 var num = sp.length;
 var video_index = 0;

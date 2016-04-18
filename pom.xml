@@ -21,6 +21,11 @@
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
+			<version>4.10</version>
+		</dependency>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
 			<version>4.11</version>
 			<!-- 表示开发的时候引入，发布的时候不会加载此包 -->
 			<scope>test</scope>
@@ -177,8 +182,11 @@
 				<configuration>
 					<source>1.7</source>
 					<target>1.7</target>
+					<encoding>utf8</encoding>
+					<skipTests>true</skipTests> 
 				</configuration>
 			</plugin>
 		</plugins>
+		<defaultGoal>compile</defaultGoal>
 	</build>
 </project>

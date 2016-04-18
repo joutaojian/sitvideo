@@ -36,13 +36,25 @@ public class TestSSM {
 	@Test
 	public void test2() {
 		List<User> users = userService.getAll();
-		logger.info("test2:"+JSON.toJSONStringWithDateFormat(users, "yyyy-MM-dd"));
+		logger.info("test2:"+users);
 	}
 	
 	@Test
 	public void test3() {
 		List<Mov> movs = movService.search("你");
 		logger.info("test3:"+movs.get(0).getName());
+	}
+	
+	@Test
+	public void test4() {
+		List<Mov> mov = movService.search("");
+		logger.info("test4:"+JSON.toJSONStringWithDateFormat(mov, "yyyy-MM-dd"));
+	}
+	
+	@Test
+	public void test5() {
+		List movList = movService.listMov(6);
+		logger.info("test4:"+JSON.toJSONStringWithDateFormat(movList, "yyyy-MM-dd"));
 	}
 	
 }

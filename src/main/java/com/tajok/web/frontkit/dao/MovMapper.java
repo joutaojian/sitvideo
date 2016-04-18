@@ -20,4 +20,11 @@ public interface MovMapper {
 	// 手动
 
 	List<Mov> search(String content);
+
+	Mov show(Integer id);
+
+	void upload();
+
+	List listMy(Integer id);
+	
 }

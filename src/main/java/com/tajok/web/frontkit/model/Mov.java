@@ -7,7 +7,7 @@ public class Mov {
 
     private String name;
 
-    private String desc;
+    private String descp;
 
     private Date time;
 
@@ -18,18 +18,36 @@ public class Mov {
     private String resUrl;
 
     private Integer levelId;
-
+    
     private Integer userId;
 
-    public Integer getId() {
-        return id;
-    }
+    public Integer getUserId() {
+		return userId;
+	}
 
-    public void setId(Integer id) {
-        this.id = id;
-    }
+	public void setUserId(Integer userId) {
+		this.userId = userId;
+	}
 
-    public String getName() {
+	private User user;
+
+	public User getUser() {
+		return user;
+	}
+
+	public void setUser(User user) {
+		this.user = user;
+	}
+
+	public Integer getId() {
+		return id;
+	}
+
+	public void setId(Integer id) {
+		this.id = id;
+	}
+
+	public String getName() {
         return name;
     }
 
@@ -37,12 +55,12 @@ public class Mov {
         this.name = name == null ? null : name.trim();
     }
 
-    public String getDesc() {
-        return desc;
+    public String getDescp() {
+        return descp;
     }
 
-    public void setDesc(String desc) {
-        this.desc = desc == null ? null : desc.trim();
+    public void setDescp(String descp) {
+        this.descp = descp == null ? null : descp.trim();
     }
 
     public Date getTime() {
@@ -85,11 +103,4 @@ public class Mov {
         this.levelId = levelId;
     }
 
-    public Integer getUserId() {
-        return userId;
-    }
-
-    public void setUserId(Integer userId) {
-        this.userId = userId;
-    }
 }

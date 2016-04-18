@@ -46,41 +46,41 @@
 			<div class="col-md-9 col_5">
 				<div class="col_1_of_5 span_1_of_5">
 					<ul class="list1">
-					    <li><a href=""></a><b>Level-1</b></li>
-			            <li><a href="stock.html">面向对象</a></li>
-			            <li><a href="stock.html">基本语法</a></li>
-			            <li><a href="stock.html">集合框架</a></li>
-			            <li><a href="stock.html">多线程</a></li>
-			            <li><a href="stock.html">网络编程</a></li>
+					    <li><a ></a><b>Level-1</b></li>
+			            <li><a >面向对象</a></li>
+			            <li><a >基本语法</a></li>
+			            <li><a >集合框架</a></li>
+			            <li><a >多线程</a></li>
+			            <li><a >网络编程</a></li>
 		            </ul>
 				</div>
 				<div class="col_1_of_5 span_1_of_5">
 					<ul class="list1">
 					    <li><a href=""></a><b>Level-2</b></li>
-			            <li><a href="stock.html">数据结构</a></li>
-			            <li><a href="stock.html">算法设计</a></li>
-			            <li><a href="stock.html">设计模式</a></li>
-			            <li><a href="stock.html">编程技巧</a></li>
-			            <li><a href="stock.html">编程工具</a></li>
+			            <li><a >数据结构</a></li>
+			            <li><a >算法设计</a></li>
+			            <li><a >设计模式</a></li>
+			            <li><a >编程技巧</a></li>
+			            <li><a >编程工具</a></li>
 		            </ul>
 				</div>
 				<div class="col_1_of_5 span_1_of_5">
 					<ul class="list1">
-					    <li><a href="stock.html"></a><b>Level-3</b></li>
-			            <li><a href="stock.html">数据库</a></li>
-			            <li><a href="stock.html">操作系统</a></li>
-			            <li><a href="stock.html">编译原理</a></li>
-			            <li><a href="stock.html">计算机网络</a></li>
+					    <li><a ></a><b>Level-3</b></li>
+			            <li><a >数据库</a></li>
+			            <li><a >操作系统</a></li>
+			            <li><a >编译原理</a></li>
+			            <li><a >计算机网络</a></li>
 		            </ul>
 				</div>
 				<div class="col_1_of_5 span_1_of_5">
 					<ul class="list1">
-					    <li><a href="stock.html"></a><b>Level-4</b></li>
-			            <li><a href="stock.html">Servlet/JSP</a></li>
-			            <li><a href="stock.html">框架</a></li>
-			            <li><a href="stock.html">Linux</a></li>
-			            <li><a href="stock.html">前端技术</a></li>
-			            <li><a href="stock.html">新技术</a></li>
+					    <li><a ></a><b>Level-4</b></li>
+			            <li><a >Servlet/JSP</a></li>
+			            <li><a >框架</a></li>
+			            <li><a >Linux</a></li>
+			            <li><a >前端技术</a></li>
+			            <li><a >新技术</a></li>
 		            </ul>
 				</div>
 				<div class="clearfix"></div>
@@ -167,20 +167,6 @@
 	</div>
 	
 	
-	<div class="grid_3">
-	  <div class="container">
-	  	 <ul id="footer-links">
-			<li><a href="#">Terms of Use</a></li>
-			<li><a href="#">Royalty Free License</a></li>
-			<li><a href="#">Extended License</a></li>
-			<li><a href="#">Privacy</a></li>
-			<li><a href="support.html">Support</a></li>
-			<li><a href="about.html">About Us</a></li>
-			<li><a href="faq.html">FAQ</a></li>
-			<li><a href="#">Categories</a></li>
-         </ul>
-         <!--<p>Copyright &copy; 2015.Company name All rights reserved.More Templates <a href="http://www.cssmoban.com/" target="_blank" title="æ¨¡æ¿ä¹å®¶">æ¨¡æ¿ä¹å®¶</a> - Collect from <a href="http://www.cssmoban.com/" title="ç½é¡µæ¨¡æ¿" target="_blank">ç½é¡µæ¨¡æ¿</a></p>-->
-	  </div>
-	</div>
+	<jsp:include page="/WEB-INF/jsp/front/foot.jsp"></jsp:include>
 </body>
 </html>
