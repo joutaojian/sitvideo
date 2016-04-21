@@ -100,7 +100,7 @@ public class MovController {
                         //重命名上传后的文件名  
                         String fileName = Encrypter.randFileName() + file.getOriginalFilename();  
                         //定义上传路径  
-                        String path = request.getServletContext().getRealPath("/upload") + "\\" + fileName;  
+                        String path = request.getServletContext().getRealPath("/upload") + "/" + fileName;  
                         File headPath = new File(request.getServletContext().getRealPath("/upload"));//获取文件夹路径
                         if(!headPath.exists()){//判断文件夹是否创建，没有创建则创建新文件夹
                         	headPath.mkdirs();
@@ -129,6 +129,18 @@ public class MovController {
 	public String deleteMov(HttpServletRequest request,@RequestParam int id){
 		movService.deleteMov(id);
 		return "redirect:/user/info.do";
+		
+	}
+	
+	/**
+	 * 删除视频
+	 * 重定向
+	 * @return
+	 */
+	@RequestMapping("/deleteBack")
+	public String deleteBackMov(HttpServletRequest request,@RequestParam int id){
+		movService.deleteMov(id);
+		return "redirect:/admin/movManager.do";
 		
 	}
 	

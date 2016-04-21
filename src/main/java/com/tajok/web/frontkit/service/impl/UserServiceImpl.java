@@ -70,6 +70,12 @@ public class UserServiceImpl implements IUserService {
 		userDao.insert(user);
 		
 	}
+
+	@Override
+	public void delete(int id) {
+
+		userDao.deleteByPrimaryKey(id);		
+	}
 	
 
 }

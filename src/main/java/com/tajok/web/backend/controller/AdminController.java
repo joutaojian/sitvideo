@@ -82,4 +82,15 @@ public class AdminController {
 		request.setAttribute("movList", movList);
 		return "/WEB-INF/jsp/back/movManager.jsp";
 	}
+	
+	/**
+	 * 删除
+	 * @param request
+	 * @return
+	 */
+	@RequestMapping(value = "/delete")
+	public String delete(HttpServletRequest request,@RequestParam int id) {
+		adminService.delete(id);
+		return "redirect:/admin/adminManager.do";
+	}
 }

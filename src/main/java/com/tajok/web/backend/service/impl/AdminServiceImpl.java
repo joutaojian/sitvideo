@@ -38,6 +38,12 @@ public class AdminServiceImpl implements IAdminService {
 		return adminList;
 	}
 
+	@Override
+	public void delete(int id) {
+
+		adminDao.deleteByPrimaryKey(id);		
+	}
+
 	
 
 }

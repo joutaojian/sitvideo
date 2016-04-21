@@ -33,6 +33,7 @@
           <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
             <span class="sr-only">Toggle navigation</span>
           </a>
+           <a href="../admin/logout.do" style="color:white;float:right;margin:10px 5px 0 0">注销</a>
         </nav>
       </header>
       <!-- Left side column. contains the logo and sidebar -->

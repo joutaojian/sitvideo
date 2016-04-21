@@ -22,6 +22,7 @@
 		<!--<div class="col-md-10 sap_tabs">	-->
 		<div>
 			<div id="horizontalTab" style="display: block; width: 100%; margin: 0px;">
+			
 				<ul class="resp-tabs-list">
 					<li class="resp-tab-item" aria-controls="tab_item-0" role="tab"><span>Level
 							- 1</span></li>

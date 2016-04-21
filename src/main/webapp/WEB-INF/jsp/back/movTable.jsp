@@ -24,7 +24,7 @@
 	           <td><fmt:formatDate value="${movList.time}" pattern="yyyy-MM-dd"/></td>
 	           <td>${movList.levelId}</td>
 	           <td>${movList.user.name}</td>
-	           <td><a href="../mov/show/${movList.id}.do">查看</a><a href="../mov/delete.do?id=${movList.id}">删除</a></td>
+	           <td><a href="../mov/show/${movList.id}.do">查看</a> | <a href="../mov/deleteBack.do?id=${movList.id}">删除</a></td>
 	       </tr>
        </tbody>
        </c:forEach>

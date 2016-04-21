@@ -10,4 +10,5 @@ public interface IUserService {
 	public User getModel(String email);
 	public boolean registerCheck(String email, String password, String password_c);
 	public void register(String name, int phone, int level, String email, String password);
+	public void delete(int id);
 }

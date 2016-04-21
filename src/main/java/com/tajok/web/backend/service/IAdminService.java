@@ -11,5 +11,7 @@ public interface IAdminService {
 	public Admin getModel(String email);
 
 	public List listAll();
+
+	public void delete(int id);
 	
 }

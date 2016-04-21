@@ -146,6 +146,17 @@ public class UserController {
 	}
 	
 	/**
+	 * 删除
+	 * @param request
+	 * @return
+	 */
+	@RequestMapping(value = "/delete")
+	public String delete(HttpServletRequest request,@RequestParam int id) {
+		userService.delete(id);
+		return "redirect:/admin/userManager.do";
+	}
+	
+	/**
 	 * 测试
 	 * @param request
 	 * @return
