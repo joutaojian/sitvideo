@@ -42,7 +42,7 @@
         <section class="sidebar">
           <ul class="sidebar-menu">
             <li class="treeview">
-              <a href="#">
+              <a href="">
                 <i class="fa fa-dashboard"></i> <span>用户管理</span> <i class="fa fa-angle-left pull-right"></i>
               </a>
               <ul class="treeview-menu">
@@ -51,7 +51,7 @@
               </ul>
             </li>
             <li class="active treeview">
-              <a href="#">
+              <a href="">
                 <i class="fa fa-files-o"></i>
                 <span>视频管理</span>
                 <i class="fa fa-angle-left pull-right"></i>

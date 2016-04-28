@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 
 import com.tajok.web.backend.model.Admin;
+import com.tajok.web.frontkit.model.Mov;
 import com.tajok.web.frontkit.model.User;
 import com.tajok.web.frontkit.service.IMovService;
 import com.tajok.web.frontkit.service.IUserService;
@@ -122,6 +123,7 @@ public class UserController {
 	 * @param request
 	 * @return
 	 */
+	@SuppressWarnings("rawtypes")
 	@RequestMapping(value = "/info")
 	public String info(HttpSession session,HttpServletRequest request) {
 		

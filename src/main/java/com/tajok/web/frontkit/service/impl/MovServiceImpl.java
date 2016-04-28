@@ -50,9 +50,10 @@ public class MovServiceImpl implements IMovService{
 		return null;
 	}
 
+	@SuppressWarnings("rawtypes")
 	@Override
 	public List listMov(Integer id) {
-		
+
 		List movList = movDao.listMy(id);
 		return movList;
 	}

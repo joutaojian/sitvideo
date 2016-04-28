@@ -1,17 +1,20 @@
 package com.tajok.web.frontkit.controller;
 
 import java.io.File;
+import java.io.FileInputStream;
 import java.io.IOException;
-import java.util.Date;
+import java.io.InputStream;
+import java.io.OutputStream;
 import java.util.Iterator;
 import java.util.List;
-import java.util.Random;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
-import org.apache.commons.io.FileUtils;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -44,8 +47,23 @@ public class MovController {
 		
 		Mov mov = movService.show(id);
 		request.setAttribute("movUrl", mov.getMovUrl());
-		request.setAttribute("resUrl", mov.getResUrl());
-		request.setAttribute("descp", mov.getDescp());
+        request.setAttribute("resUrl", mov.getResUrl());
+        request.setAttribute("descp", mov.getDescp());
+        //---
+        try{
+		String movUrl = mov.getMovUrl();
+		String resUrl = mov.getResUrl();
+		Pattern p=Pattern.compile("(?=[0-9 ]).+$");
+		Matcher m1=p.matcher(movUrl);
+		Matcher m2=p.matcher(resUrl);
+		 while(m1.find()&&m2.find())
+	     { 
+			request.setAttribute("dowMov", m1.group());
+			request.setAttribute("dowRes", m2.group());
+	     }
+		 }catch(Exception e){
+			 System.out.println("无地址");
+		 }
 		
 		return "/WEB-INF/jsp/front/movAction/mov.jsp";
 	}
@@ -100,7 +118,7 @@ public class MovController {
                         //重命名上传后的文件名  
                         String fileName = Encrypter.randFileName() + file.getOriginalFilename();  
                         //定义上传路径  
-                        String path = request.getServletContext().getRealPath("/upload") + "/" + fileName;  
+                        String path = request.getServletContext().getRealPath("/upload") + "\\" + fileName;  
                         File headPath = new File(request.getServletContext().getRealPath("/upload"));//获取文件夹路径
                         if(!headPath.exists()){//判断文件夹是否创建，没有创建则创建新文件夹
                         	headPath.mkdirs();
@@ -133,7 +151,7 @@ public class MovController {
 	}
 	
 	/**
-	 * 删除视频
+	 * 删除视频-后台
 	 * 重定向
 	 * @return
 	 */
@@ -149,6 +167,8 @@ public class MovController {
 	 * 转发
 	 */
 	public String auditMovUI(){
+		
+		
 		return null;
 		
 	}
@@ -159,6 +179,45 @@ public class MovController {
 	 */
 	public String auditMov(){
 		return null;
+		
+	}
+	
+	/**
+	 * 下载视频
+	 * 转发
+	 * @throws IOException 
+	 */
+	@RequestMapping("/dowMov")
+	public String dowMov(HttpServletRequest request,HttpServletResponse response,@RequestParam String filename) throws IOException{
+		
+		//获得请求文件名  
+        System.out.println(filename);  
+          
+        //设置文件MIME类型  
+        response.setContentType(request.getServletContext().getMimeType(filename));  
+        //设置Content-Disposition  
+        response.setHeader("Content-Disposition", "attachment;filename="+filename);  
+        //读取目标文件，通过response将目标文件写到客户端  
+        //获取目标文件的绝对路径 
+        String fullFileName = request.getServletContext().getRealPath(filename);  
+        System.out.println(fullFileName);
+        //System.out.println(fullFileName);  
+        //读取文件  
+        InputStream in = new FileInputStream(fullFileName);  
+        OutputStream out = response.getOutputStream();  
+          
+        //写文件  
+        int b;  
+        while((b=in.read())!= -1)  
+        {  
+            out.write(b);  
+        }  
+          
+        in.close();  
+        
+        out.close(); 
+        
+        return "redirect:/user/info.do";
 		
 	}
 	

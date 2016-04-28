@@ -153,7 +153,7 @@ INSERT INTO `t_user` VALUES ('1', '周韬健', 'admin', 'admin@qq.com', '2147483
 INSERT INTO `t_user` VALUES ('3', '李四', null, '123456789@163.com', '1324567897', '2016-03-09 19:07:28', '2');
 INSERT INTO `t_user` VALUES ('5', 'adminaas', '1', 'admin@qqa.com', '1237', null, null);
 INSERT INTO `t_user` VALUES ('6', 'test', '123456', 'qrb@163.com', '1380013800', '2016-03-16 15:46:42', null);
-INSERT INTO `t_user` VALUES ('7', 'adminaas', '1', '740146442@qq.comdd', '1237', null, '1');
+INSERT INTO `t_user` VALUES ('7', 'adminaas', '1', '740146@a.comdd', '1237', null, '1');
 INSERT INTO `t_user` VALUES ('8', '?XX', 'zhou', 'aa@qqq.com', '1357809424', '2016-03-09 19:07:28', '4');
 INSERT INTO `t_user` VALUES ('9', '?XX', 'zhou', 'aa@qqq.com', '1357809424', '2016-03-09 19:07:28', '4');
 INSERT INTO `t_user` VALUES ('10', '?XX', 'zhou', 'aa@qqq.com', '1357809424', '2016-03-09 19:07:28', '4');
