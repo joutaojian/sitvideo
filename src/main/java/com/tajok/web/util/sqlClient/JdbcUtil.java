@@ -10,7 +10,7 @@ import java.sql.Statement;
 public class JdbcUtil {
 	private static String url = "jdbc:mysql:///mybatis?useUnicode=true&characterEncoding=UTF-8";
 	private static String username = "root";
-	private static String password = "";
+	private static String password = "admin";
 	private static String driverName = "com.mysql.jdbc.Driver";
 
 	public JdbcUtil() {

@@ -63,6 +63,12 @@ public class MovServiceImpl implements IMovService{
 		movDao.deleteByPrimaryKey(id);
 	}
 
+	@Override
+	public Mov getById(int id) {
+		
+		return movDao.selectByPrimaryKey(id);
+	}
+
 	
 	
 }

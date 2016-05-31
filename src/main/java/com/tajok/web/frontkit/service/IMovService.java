@@ -17,4 +17,6 @@ public interface IMovService {
 
 	void deleteMov(int id);
 
+	Mov getById(int id);
+
 }

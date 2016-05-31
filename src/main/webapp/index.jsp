@@ -9,7 +9,7 @@
 
 <body>
 
-<jsp:include page="/WEB-INF/jsp/front/userAction/guest.jsp"></jsp:include>
+<jsp:forward page="/user/guest.do" />
 
 </body>
 </html>

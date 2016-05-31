@@ -1,5 +1,6 @@
 package com.tajok.web.frontkit.controller;
 
+import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
@@ -14,6 +15,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 
 import com.tajok.web.backend.model.Admin;
+import com.tajok.web.backend.service.IRecordService;
 import com.tajok.web.frontkit.model.Mov;
 import com.tajok.web.frontkit.model.User;
 import com.tajok.web.frontkit.service.IMovService;
@@ -27,6 +29,51 @@ public class UserController {
 	private IUserService userService;//将本地的userService属性注入，等同且替代了setter
 	@Resource
 	private IMovService movService;//将本地的userService属性注入，等同且替代了setter
+	@Resource
+	private IRecordService recordService;//将本地的userService属性注入，等同且替代了setter
+	
+	public void rank(HttpServletRequest request){
+		//1
+		List<Mov> movRankLists1 = new ArrayList<>();
+		List ranks1 = recordService.rank(1);
+		for(int i = 0;i<ranks1.size();i++){
+			Mov mov = movService.getById(Integer.parseInt((String) ranks1.get(i)));
+			System.out.println(mov);
+			movRankLists1.add(mov);
+		}
+		request.setAttribute("movRankLists1", movRankLists1);
+		
+		//2
+		List<Mov> movRankLists2 = new ArrayList<>();
+		List ranks2 = recordService.rank(2);
+		for(int i = 0;i<ranks2.size();i++){
+			Mov mov = movService.getById(Integer.parseInt((String) ranks2.get(i)));
+			System.out.println(mov);
+			movRankLists2.add(mov);
+		}
+		request.setAttribute("movRankLists2", movRankLists2);
+		
+		//3
+		List<Mov> movRankLists3 = new ArrayList<>();
+		List ranks3 = recordService.rank(3);
+		for(int i = 0;i<ranks3.size();i++){
+			Mov mov = movService.getById(Integer.parseInt((String) ranks3.get(i)));
+			System.out.println(mov);
+			movRankLists3.add(mov);
+		}
+		request.setAttribute("movRankLists3", movRankLists3);
+		
+		//4
+		List<Mov> movRankLists4 = new ArrayList<>();
+		List ranks4 = recordService.rank(4);
+		for(int i = 0;i<ranks4.size();i++){
+			Mov mov = movService.getById(Integer.parseInt((String) ranks4.get(i)));
+			System.out.println(mov);
+			movRankLists4.add(mov);
+		}
+		request.setAttribute("movRankLists4", movRankLists4);
+	}
+	
 	
 	/**
 	 * 访客首页
@@ -35,6 +82,8 @@ public class UserController {
 	 */
 	@RequestMapping("/guest")
 	public String guest(HttpServletRequest request) {
+		
+		rank(request);
 		
 		return "/WEB-INF/jsp/front/userAction/guest.jsp";
 		
@@ -47,7 +96,7 @@ public class UserController {
 	 */
 	@RequestMapping("/index")
 	public String index(HttpServletRequest request) {
-		
+		rank(request);
 		return "/WEB-INF/jsp/front/userAction/index.jsp";
 	}
 	
@@ -68,7 +117,7 @@ public class UserController {
 	 * @return
 	 */
 	@RequestMapping(value = "/register",method = RequestMethod.POST)
-	public String register(HttpServletRequest request,@RequestParam String name,@RequestParam int phone,@RequestParam String email,
+	public String register(HttpServletRequest request,@RequestParam String name,@RequestParam long phone,@RequestParam String email,
 			@RequestParam int level,@RequestParam String password,@RequestParam String password_c) {
 		
 		if(userService.registerCheck(email,password,password_c)){

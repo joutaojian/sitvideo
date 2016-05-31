@@ -24,6 +24,8 @@ import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.multipart.MultipartHttpServletRequest;
 import org.springframework.web.multipart.commons.CommonsMultipartResolver;
 
+import com.tajok.web.backend.service.IRecordService;
+import com.tajok.web.backend.service.impl.RecordServiceImpl;
 import com.tajok.web.frontkit.model.Mov;
 import com.tajok.web.frontkit.model.User;
 import com.tajok.web.frontkit.service.IMovService;
@@ -35,6 +37,8 @@ public class MovController {
 	
 	@Resource
 	private IMovService movService;//将本地的userService属性注入，等同且替代了setter
+	@Resource
+	private IRecordService recordService;//将本地的userService属性注入，等同且替代了setter
 	
 	/**
 	 * 观看视频
@@ -43,7 +47,7 @@ public class MovController {
 	 * @return
 	 */
 	@RequestMapping("/show/{id}") //带占位符的URL
-	public String show(HttpServletRequest request,@PathVariable int id){
+	public String show(HttpServletRequest request,HttpSession session,@PathVariable int id){
 		
 		Mov mov = movService.show(id);
 		request.setAttribute("movUrl", mov.getMovUrl());
@@ -64,6 +68,14 @@ public class MovController {
 		 }catch(Exception e){
 			 System.out.println("无地址");
 		 }
+        
+        session = request.getSession();
+		User user = (User) session.getAttribute("user");
+		if(user!=null){
+		recordService.addRecord(user.getId(),id);}
+		else{
+		recordService.addRecord(1,id);
+		}
 		
 		return "/WEB-INF/jsp/front/movAction/mov.jsp";
 	}

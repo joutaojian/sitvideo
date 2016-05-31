@@ -1,5 +1,7 @@
 package com.tajok.web.backend.dao;
 
+import java.util.List;
+
 import com.tajok.web.backend.model.Record;
 
 public interface RecordMapper {
@@ -14,4 +16,6 @@ public interface RecordMapper {
     int updateByPrimaryKeySelective(Record record);
 
     int updateByPrimaryKey(Record record);
+
+	List rank(int i);
 }

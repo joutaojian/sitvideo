@@ -79,4 +79,16 @@
       mov_id = #{movId,jdbcType=INTEGER}
     where id = #{id,jdbcType=INTEGER}
   </update>
+  
+  
+  <select id="rank" resultType="java.lang.String" parameterType="java.lang.Integer" >
+    select m.id 
+    from t_record r,t_mov m 
+    where r.mov_id = m.id and m.level_id = #{id,jdbcType=INTEGER} 
+    GROUP BY mov_id 
+    ORDER BY count(*) 
+    DESC 
+    LIMIT 0,5;
+  </select>
+  
 </mapper>

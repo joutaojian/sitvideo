@@ -65,8 +65,8 @@
                 <i class="fa fa-dashboard"></i> <span>推荐管理</span> <i class="fa fa-angle-left pull-right"></i>
               </a>
               <ul class="treeview-menu">
-                <li class="active"><a href="../admin/adminManager.do"><i class="fa fa-circle-o text-aqua"></i> 首页推荐</a></li>
-                <li><a href="../admin/adminManager.do"><i class="fa fa-circle-o text-aqua"></i> 个性化推荐</a></li>
+                <li class="active"><a href="../admin/shouyeManager.do"><i class="fa fa-circle-o text-aqua"></i> 首页推荐</a></li>
+                <li><a href="../admin/shouyeManager.do"><i class="fa fa-circle-o text-aqua"></i> 个性化推荐</a></li>
               </ul>
             </li>
             <li class="treeview">

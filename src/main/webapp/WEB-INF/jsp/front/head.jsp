@@ -31,7 +31,7 @@
 		<div class="container">
 			<div class="logo">
 				<h1>
-					<a href="../user/guest.do">Java Hub</a>
+					<a href="${pageContext.request.contextPath}/user/guest.do">Java Hub</a>
 				</h1>
 			</div>
 			<div class="top_right">
@@ -47,11 +47,11 @@
 	<div class="header">	
       <div class="container"> 
   	     <div class="logo">
-			<h1><a href="index.html">Java Hub</a></h1>
+			<h1><a href="${pageContext.request.contextPath}/user/guest.do">Java Hub</a></h1>
 		 </div>
 		 <div class="top_right">
 		   <ul>
-			<li><a href="registerUI.do">注册</a></li>|
+			<li><a href="${pageContext.request.contextPath}/user/registerUI.do">注册</a></li>|
 			<li class="login" >
 				 <div id="loginContainer">
 				 <a href="#" id="loginButton"><span>登录</span></a>

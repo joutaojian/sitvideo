@@ -13,7 +13,7 @@
    
 	<!-- 自动扫描 -->
 	<context:component-scan base-package="com.tajok.web.frontkit.service" />
-	<context:component-scan base-package="com.tajok.web.backend.service" />
+ 	<context:component-scan base-package="com.tajok.web.backend.service" />
 	
 	<!-- 引入配置文件 -->
 	<bean id="propertyConfigurer"

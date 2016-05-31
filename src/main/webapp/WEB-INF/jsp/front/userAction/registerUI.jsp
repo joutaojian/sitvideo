@@ -23,7 +23,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<div class="header">	
       <div class="container"> 
   	     <div class="logo">
-			<h1><a href="index.html">Java Hub</a></h1>
+			<h1><a href="${pageContext.request.contextPath}/user/guest.do">Java Hub</a></h1>
 		 </div>
 		 
 		 <div class="top_right">

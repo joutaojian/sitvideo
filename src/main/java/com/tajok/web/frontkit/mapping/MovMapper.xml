@@ -156,7 +156,10 @@
 	<select id="search" parameterType="String" resultMap="ClassResultMap">
 		select 
 		m.id as id, 
-		m.name as name, 
+		m.name as name,
+		m.descp as descp,
+		m.time as time,
+		m.level_id as level_id,
 		u.id as u_id, 
 		u.name as u_name,
 		m.img_url as img_url 
@@ -169,6 +172,9 @@
 		<id column="id" property="id" jdbcType="INTEGER" />
 		<result column="name" property="name" jdbcType="VARCHAR" />
 		<result column="img_url" property="imgUrl" jdbcType="VARCHAR" />
+		<result column="descp" property="descp" jdbcType="VARCHAR" />
+		<result column="time" property="time" jdbcType="TIMESTAMP" />
+		<result column="level_id" property="levelId" jdbcType="INTEGER" />
 		<association property="user" javaType="com.tajok.web.frontkit.model.User">
 			<id column="u_id" property="id" jdbcType="INTEGER" />
 			<result column="u_name" property="name" jdbcType="VARCHAR" />

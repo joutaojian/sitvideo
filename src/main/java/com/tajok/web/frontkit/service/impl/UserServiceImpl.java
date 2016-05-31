@@ -1,5 +1,6 @@
 package com.tajok.web.frontkit.service.impl;
 
+import java.util.Date;
 import java.util.List;
 
 import javax.annotation.Resource;
@@ -58,7 +59,7 @@ public class UserServiceImpl implements IUserService {
 
 	@Transactional//事务
 	@Override
-	public void register(String name, int phone, int level, String email, String password) {
+	public void register(String name, long phone, int level, String email, String password) {
 		
 		//插入User表
 		User user = new User();
@@ -67,6 +68,7 @@ public class UserServiceImpl implements IUserService {
 		user.setPhone(phone);
 		user.setPassword(password);
 		user.setLevelId(level);
+		user.setTime(new Date());
 		userDao.insert(user);
 		
 	}

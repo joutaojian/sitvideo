@@ -1,4 +1,5 @@
 <%@ page language="java" import="java.util.*" pageEncoding="utf-8"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
 <head>
@@ -111,75 +112,35 @@
 		<div class="col-md-2 col_1">
 			<h4>Level-1</h4>
 		</div>
+		<c:forEach items="${movRankLists1}" var="movRankLists1">
 		<div class="col-md-2 col_1">
-			<img src="${pageContext.request.contextPath}/frontDesign/images/g1.jpg" class="img-responsive" alt=""/>
+			<a href="${pageContext.request.contextPath}/mov/show/${movRankLists1.id}.do"> <img src="${pageContext.request.contextPath}/${movRankLists1.imgUrl}" class="img-responsive" alt=""/>
 		</div>
-		<div class="col-md-2 col_1">
-			<img src="${pageContext.request.contextPath}/frontDesign/images/g2.jpg" class="img-responsive" alt=""/>
-		</div>
-		<div class="col-md-2 col_1">
-			<img src="${pageContext.request.contextPath}/frontDesign/images/g3.jpg" class="img-responsive" alt=""/>
-		</div>
-		<div class="col-md-2 col_1">
-			<img src="${pageContext.request.contextPath}/frontDesign/images/g4.jpg" class="img-responsive" alt=""/>
-		</div>
-		<div class="col-md-2 col_1" id="show">
-			<img src="${pageContext.request.contextPath}/frontDesign/images/g5.jpg" class="img-responsive" alt=""/>
-		</div>
+		</c:forEach>
 		<div class="col-md-2 col_1">
 			<h4>Level-2</h4>
 		</div>
+		<c:forEach items="${movRankLists2}" var="movRankLists2">
 		<div class="col-md-2 col_1">
-			<img src="${pageContext.request.contextPath}/frontDesign/images/f1.jpg" class="img-responsive" alt=""/>
+			<a href="${pageContext.request.contextPath}/mov/show/${movRankLists2.id}.do"> <img src="${pageContext.request.contextPath}/${movRankLists2.imgUrl}" class="img-responsive" alt=""/>
 		</div>
-		<div class="col-md-2 col_1">
-			<img src="${pageContext.request.contextPath}/frontDesign/images/pic9.jpg" class="img-responsive" alt=""/>
-		</div>
-		<div class="col-md-2 col_1">
-			<img src="${pageContext.request.contextPath}/frontDesign/images/f2.jpg" class="img-responsive" alt=""/>
-		</div>
-		<div class="col-md-2 col_1">
-			<img src="${pageContext.request.contextPath}/frontDesign/images/f3.jpg" class="img-responsive" alt=""/>
-		</div>
-		<div class="col-md-2 col_1">
-			<img src="${pageContext.request.contextPath}/frontDesign/images/f4.jpg" class="img-responsive" alt=""/>
-		</div>
+		</c:forEach>
 		<div class="col-md-2 col_1">
 			<h4>Level-3</h4>
 		</div>
+		<c:forEach items="${movRankLists3}" var="movRankLists3">
 		<div class="col-md-2 col_1">
-			<img src="${pageContext.request.contextPath}/frontDesign/images/w1.jpg" class="img-responsive" alt=""/>
+			<a href="${pageContext.request.contextPath}/mov/show/${movRankLists3.id}.do"> <img src="${pageContext.request.contextPath}/${movRankLists3.imgUrl}" class="img-responsive" alt=""/>
 		</div>
-		<div class="col-md-2 col_1">
-			<img src="${pageContext.request.contextPath}/frontDesign/images/pic15.jpg" class="img-responsive" alt=""/>
-		</div>
-		<div class="col-md-2 col_1">
-			<img src="${pageContext.request.contextPath}/frontDesign/images/w2.jpg" class="img-responsive" alt=""/>
-		</div>
-		<div class="col-md-2 col_1">
-			<img src="${pageContext.request.contextPath}/frontDesign/images/w3.jpg" class="img-responsive" alt=""/>
-		</div>
-		<div class="col-md-2 col_1">
-			<img src="${pageContext.request.contextPath}/frontDesign/images/w4.jpg" class="img-responsive" alt=""/>
-		</div>
+		</c:forEach>
 		<div class="col-md-2 col_1">
 			<h4>Level-4</h4>
 		</div>
+		<c:forEach items="${movRankLists4}" var="movRankLists4">
 		<div class="col-md-2 col_1">
-			<img src="${pageContext.request.contextPath}/frontDesign/images/pic20.jpg" class="img-responsive" alt=""/>
+			<a href="${pageContext.request.contextPath}/mov/show/${movRankLists4.id}.do"> <img src="${pageContext.request.contextPath}/${movRankLists4.imgUrl}" class="img-responsive" alt=""/>
 		</div>
-		<div class="col-md-2 col_1">
-			<img src="${pageContext.request.contextPath}/frontDesign/images/pic21.jpg" class="img-responsive" alt=""/>
-		</div>
-		<div class="col-md-2 col_1">
-			<img src="${pageContext.request.contextPath}/frontDesign/images/pic22.jpg" class="img-responsive" alt=""/>
-		</div>
-		<div class="col-md-2 col_1">
-			<img src="${pageContext.request.contextPath}/frontDesign/images/pic23.jpg" class="img-responsive" alt=""/>
-		</div>
-		<div class="col-md-2 col_1">
-			<img src="${pageContext.request.contextPath}/frontDesign/images/pic24.jpg" class="img-responsive" alt=""/>
-		</div>
+		</c:forEach>
 		<div class="clearfix"> </div>
 	</div>
 	
