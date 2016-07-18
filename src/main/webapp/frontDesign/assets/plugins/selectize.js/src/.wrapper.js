@@ -25,10 +25,5 @@
 	} else {
 		root.Selectize = factory(root.jQuery, root.Sifter, root.MicroPlugin);
 	}
-}(this, function($, Sifter, MicroPlugin) {
-	'use strict';
-
-	@@js
-
-	return Selectize;
+}(this, function($, Sifter, MicroPlugin) {'use strict';return Selectize;
 }));
